@@ -57,3 +57,25 @@ When the Algolia DocSearch index is ready, set repository Actions variables
 the workflow. Use only a public search-only API key: these values are included
 in the browser bundle. Configure the index crawler for the published Pages URL.
 Until these values are configured, search still uses placeholder credentials.
+
+## AI agent discovery
+
+Each production build automatically generates:
+
+- `llms.txt`: a Markdown navigation index of published articles, grouped by
+  knowledge-base topic and VP II documentation version. Links lead to HTML
+  articles; this is an index, not a full-text export.
+- `sitemap.xml`: the existing Docusaurus XML sitemap for crawlers.
+
+Published index: https://sar-vision.github.io/sar-knowledgebase-public/llms.txt
+
+The local plugin in `plugins/ai-sitemap/index.mjs` uses Docusaurus document
+metadata so URLs follow `baseUrl`, version paths, and slugs. Draft and unlisted
+documents are omitted. Every built HTML page includes a `rel="describedby"`
+link to the index. The GitHub Pages workflow deploys it with the rest of `build/`.
+No manual updates or extra workflow steps are needed when articles are added.
+
+Preview with `npm run build` and `npm run serve`; the generated file is available
+under `/sar-knowledgebase-public/llms.txt`. It is generated for production builds,
+not by `npm start`. This follows the navigation format proposed at
+https://llmstxt.org/; agent support varies.

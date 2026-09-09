@@ -6,6 +6,7 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import {readFileSync} from 'node:fs';
+import aiSitemap from './plugins/ai-sitemap/index.mjs';
 
 const sdkVersionsPath = new URL('./sdk_versions.json', import.meta.url);
 let sdkVersions = [];
@@ -103,8 +104,9 @@ const config = {
     ],
   ],
 
-  plugins:
-    sdkVersions.length > 0
+  plugins: [
+    aiSitemap,
+    ...(sdkVersions.length > 0
       ? [
           [
             '@docusaurus/plugin-content-docs',
@@ -119,7 +121,8 @@ const config = {
             },
           ],
         ]
-      : [],
+      : []),
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
