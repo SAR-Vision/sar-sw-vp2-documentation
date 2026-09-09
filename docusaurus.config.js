@@ -24,7 +24,7 @@ function linkVpIIDocumentationToSdk(items) {
       return {
         type: 'link',
         label: item.label,
-        href: `/sdk-api/${sdkVersions[0]}/`,
+        href: `/vp2-docs/${sdkVersions[0]}/`,
       };
     }
 
@@ -111,7 +111,7 @@ const config = {
             {
               id: 'sdk',
               path: 'sdk_docs',
-              routeBasePath: 'sdk-api',
+              routeBasePath: 'vp2-docs',
               sidebarPath: './sidebarsSdk.js',
               includeCurrentVersion: false,
               lastVersion: sdkVersions[0],
