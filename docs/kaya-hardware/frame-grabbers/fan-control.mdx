@@ -1,0 +1,11 @@
+---
+title: "Grabber fan control"
+slug: /kaya-hardware/frame-grabbers/fan-control
+---
+import XWikiContent from '@site/src/components/XWikiContent';
+
+export const xwikiHtml = "\u003cp>The fan starts operating when it reaches the specific temperature. If the fan fails to start, it may be due to a firmware version. Please send the Vision Point log and&nbsp;the screen from the&nbsp;Hardware information&nbsp;where the device Temperature is displayed. Additionally, please try to make an analysis of the issue by following these steps:\u003c/p>\u003col>\u003cli>In&nbsp;Fan Control section of grabber parameters list try to adjust the parameters and check the fan is working.\u003cbr>Set \"Fan on Threshold On\" to 20.\u003cbr>Set \"Fan on Threshold Off\" to 10.\u003c/li>\u003cli>After completing&nbsp;these actions, please remember to&nbsp;\u003cins>\u003cstrong>return the Threshold parameters\u003c/strong>\u003c/ins>&nbsp;to their original values.\u003c/li>\u003c/ol>";
+
+export const toc = [];
+
+<XWikiContent html={xwikiHtml} anchorIds={toc.map(item => item.id)} />

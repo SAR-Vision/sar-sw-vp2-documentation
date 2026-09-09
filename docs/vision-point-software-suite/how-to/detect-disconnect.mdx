@@ -1,0 +1,11 @@
+---
+title: "Detect Camera Connection Loss"
+slug: /vision-point-software-suite/how-to/detect-disconnect
+---
+import XWikiContent from '@site/src/components/XWikiContent';
+
+export const xwikiHtml = "\u003cp>There is a method to alert on camera disconnection/link loss.\u003c/p>\u003cp>To receive a connection loss event, \u003cspan class=\"monospace\">\u003cstrong>KYDeviceEventCallBackRegister()\u003c/strong>\u003c/span> should first be used to register a callback function.\u003c/p>\u003cp>When a camera link loss is detected, the software will fire an \u003cspan class=\"monospace\">\u003cstrong>KYDEVICE_EVENT_CAMERA_CONNECTION_LOST_ID\u003c/strong>\u003c/span> event with disconnected link details.\u003c/p>\u003cp>The event with \u003cstrong>\u003cspan class=\"monospace\">KYDEVICE_EVENT_CAMERA_CONNECTION_LOST_ID\u003c/span>\u003c/strong> id should be interpreted as \u003cstrong>\u003cspan class=\"monospace\">KYDEVICE_EVENT_CAMERA_CONNECTION_LOST\u003c/span>\u003c/strong> struct.\u003c/p>\u003cp>It contains information of disconnected camera, index of lost Frame Grabber physical link and lost Camera link.\u003c/p>\u003cp>When this event is received, user should close the associated camera.\u003c/p>\u003cp>Nevertheless, if connection is lost the following functions call, which requires a connected camera, will be blocked and return the\u003c/p>";
+
+export const toc = [];
+
+<XWikiContent html={xwikiHtml} anchorIds={toc.map(item => item.id)} />

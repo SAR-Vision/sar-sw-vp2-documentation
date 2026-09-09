@@ -1,0 +1,8 @@
+{
+  "label": "Cameras FAQ",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "kaya-hardware/cameras/index"
+  }
+}
