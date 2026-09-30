@@ -8,32 +8,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import {readFileSync} from 'node:fs';
 import aiSitemap from './plugins/ai-sitemap/index.mjs';
 
-const sdkVersionsPath = new URL('./sdk_versions.json', import.meta.url);
-let sdkVersions = [];
-try {
-  sdkVersions = JSON.parse(readFileSync(sdkVersionsPath, 'utf8'));
-} catch {
-  // DocsBuilder output is optional until the first SDK synchronization.
-}
-const sdkVersionConfig = Object.fromEntries(
-  sdkVersions.map(version => [version, {label: version, path: version}]),
+const versionsPath = new URL('./versions.json', import.meta.url);
+const versions = JSON.parse(readFileSync(versionsPath, 'utf8'));
+const versionConfig = Object.fromEntries(
+  versions.map(version => [version, {label: version, path: version}]),
 );
-
-function linkVpIIDocumentationToSdk(items) {
-  return items.map(item => {
-    if (item.type === 'category' && item.label === 'VP II Documentation') {
-      return {
-        type: 'link',
-        label: item.label,
-        href: `/vp2-docs/${sdkVersions[0]}/`,
-      };
-    }
-
-    return item.type === 'category'
-      ? {...item, items: linkVpIIDocumentationToSdk(item.items)}
-      : item;
-  });
-}
 
 // Replace these placeholders through environment variables when the Algolia
 // DocSearch index is ready. Only a search-only API key should be exposed here.
@@ -48,8 +27,8 @@ const algoliaConfig = {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'KAYA Vision Knowledge Base',
-  tagline: 'Frame grabbers, cameras, range extenders, and Vision Point',
+  title: 'Vision Point II Documentation',
+  tagline: 'Versioned documentation for the Vision Point II SDK',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -58,19 +37,18 @@ const config = {
   },
 
   url: 'https://sar-vision.github.io',
-  baseUrl: '/sar-knowledgebase-public/',
+  baseUrl: '/sar-sw-vp2-documentation/',
   trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SAR-Vision',
-  projectName: 'sar-knowledgebase-public',
+  projectName: 'sar-sw-vp2-documentation',
 
   onBrokenLinks: 'throw',
 
   // DocsBuilder emits SDK content as plain Markdown. Detecting the format by
-  // extension prevents braces in .md prose from being parsed as MDX/JavaScript,
-  // while the migrated knowledge-base .mdx files keep their JSX support.
+  // extension prevents braces in .md prose from being parsed as MDX/JavaScript.
   markdown: {
     format: 'detect',
   },
@@ -89,12 +67,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          sidebarItemsGenerator: async ({defaultSidebarItemsGenerator, ...args}) =>
-            linkVpIIDocumentationToSdk(await defaultSidebarItemsGenerator(args)),
-          // Serve the knowledge base directly from the site root. There is no
-          // separate landing/title page.
+          path: 'docs',
           routeBasePath: '/',
+          sidebarPath: './sidebars.js',
+          includeCurrentVersion: false,
+          lastVersion: versions[0],
+          versions: versionConfig,
         },
         blog: false,
         theme: {
@@ -104,25 +82,7 @@ const config = {
     ],
   ],
 
-  plugins: [
-    aiSitemap,
-    ...(sdkVersions.length > 0
-      ? [
-          [
-            '@docusaurus/plugin-content-docs',
-            {
-              id: 'sdk',
-              path: 'sdk_docs',
-              routeBasePath: 'vp2-docs',
-              sidebarPath: './sidebarsSdk.js',
-              includeCurrentVersion: false,
-              lastVersion: sdkVersions[0],
-              versions: sdkVersionConfig,
-            },
-          ],
-        ]
-      : []),
-  ],
+  plugins: [aiSitemap],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -141,29 +101,10 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'knowledgeBaseSidebar',
-            position: 'left',
-            label: 'Knowledge Base',
+            type: 'docsVersionDropdown',
+            position: 'right',
           },
-          ...(sdkVersions.length > 0
-            ? [
-                {
-                  type: 'docSidebar',
-                  docsPluginId: 'sdk',
-                  sidebarId: 'sdkSidebar',
-                  label: 'VP II Docs',
-                  position: 'left',
-                },
-                {
-                  type: 'docsVersionDropdown',
-                  docsPluginId: 'sdk',
-                  position: 'right',
-                },
-              ]
-            : []),
           {type: 'search', position: 'right'},
-          {href: 'https://kaya.vision', label: 'KAYA Vision', position: 'right'},
         ],
       },
       algolia: algoliaConfig,
@@ -173,7 +114,7 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {label: 'Knowledge Base', to: '/'},
+              {label: 'Documentation', to: '/'},
             ],
           },
           {title: 'Company', items: [{label: 'KAYA Vision', href: 'https://kaya.vision'}]},

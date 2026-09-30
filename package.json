@@ -1,5 +1,5 @@
 {
-  "name": "kbdoc",
+  "name": "sar-sw-vp2-documentation",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,6 @@
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
-    "add-heading-anchors": "node scripts/add-docusaurus-anchors.mjs",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },

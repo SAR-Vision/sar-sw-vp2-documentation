@@ -100,17 +100,6 @@ html {
   scroll-padding-top: calc(var(--ifm-navbar-height) + 1rem);
 }
 
-.xwiki-content .anchor,
-.xwiki-anchor-alias {
-  scroll-margin-top: calc(var(--ifm-navbar-height) + 0.5rem);
-}
-
-.xwiki-anchor-alias {
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
-
 body {
   background: var(--ifm-background-color);
 }
@@ -308,82 +297,6 @@ body {
   font-size: 1.35rem;
 }
 
-/* Imported XWiki content */
-.xwiki-content img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 1rem auto;
-}
-
-.xwiki-content .xwiki-table-scroll {
-  max-width: 100%;
-  margin: 1.5rem 0;
-  overflow-x: auto;
-}
-
-.xwiki-content table {
-  display: table;
-  width: 100%;
-  margin: 0;
-  border: 1px solid var(--kaya-border);
-  background: #ffffff;
-}
-
-.xwiki-content table.hardware-overview-table,
-.xwiki-content table.firmware-links-table {
-  overflow-wrap: anywhere;
-}
-
-.xwiki-content table.hardware-overview-table {
-  table-layout: fixed;
-}
-
-.xwiki-content table.firmware-links-table td:nth-child(n + 3) {
-  white-space: nowrap;
-}
-
-.xwiki-content table th {
-  border-color: rgb(255 255 255 / 18%);
-  background: var(--kaya-blue);
-  color: #ffffff;
-  font-family: 'Khand', 'Arial Narrow', sans-serif;
-  font-size: 1.08rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-.xwiki-content table td {
-  border-color: var(--kaya-border);
-}
-
-.xwiki-content table td:first-child {
-  font-weight: 700;
-}
-
-.xwiki-content table tr:nth-child(even) td {
-  background: #f4f7f9;
-}
-
-.xwiki-content code,
-.xwiki-content .monospace {
-  color: #004b73;
-}
-
-.xwiki-content .box,
-.xwiki-content .infomessage,
-.xwiki-content .warningmessage {
-  display: block;
-  box-sizing: border-box;
-  max-width: 100%;
-  margin: 1rem 0;
-  padding: 1rem;
-  border-left: 4px solid var(--kaya-coral);
-  background: #eef3f6;
-  overflow-x: auto;
-  overflow-wrap: anywhere;
-}
-
 .footer {
   border-top: 4px solid var(--kaya-blue);
 }
@@ -450,24 +363,8 @@ body {
   color: #ffffff;
 }
 
-[data-theme='dark'] .pagination-nav__link,
-[data-theme='dark'] .xwiki-content table {
+[data-theme='dark'] .pagination-nav__link {
   background: #172630;
-}
-
-[data-theme='dark'] .xwiki-content table tr:nth-child(even) td {
-  background: #13222c;
-}
-
-[data-theme='dark'] .xwiki-content code,
-[data-theme='dark'] .xwiki-content .monospace {
-  color: #8fcde9;
-}
-
-[data-theme='dark'] .xwiki-content .box,
-[data-theme='dark'] .xwiki-content .infomessage,
-[data-theme='dark'] .xwiki-content .warningmessage {
-  background: #192b36;
 }
 
 @media (max-width: 996px) {

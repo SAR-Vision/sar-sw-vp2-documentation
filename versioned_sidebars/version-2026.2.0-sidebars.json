@@ -1,0 +1,60 @@
+{
+  "docsSidebar": [
+    "visionpoint-sdk",
+    {
+      "type": "doc",
+      "id": "migration-guide/vision-point-migration-guide",
+      "label": "Vision Point Migration Guide"
+    },
+    {
+      "type": "doc",
+      "id": "software-installation-guide/vision-point-ii-software-installation-guide",
+      "label": "Vision Point II Software Installation Guide"
+    },
+    {
+      "type": "doc",
+      "id": "release-notes/vision-point-ii-release-notes",
+      "label": "Vision Point II Release Notes"
+    },
+    {
+      "type": "doc",
+      "id": "vision-point-app-guide/vision-point-ii-app-user-guide-acquisition-mode",
+      "label": "Vision Point II App User Guide for Acquisition Mode"
+    },
+    {
+      "type": "doc",
+      "id": "api-data-book/vision-point-ii-api-data-book",
+      "label": "Vision Point II API Data Book"
+    },
+    {
+      "type": "doc",
+      "id": "kaya-vision-studio-app-guide/kaya-vision-studio-app-user-guide-acquisition-mode",
+      "label": "KAYA Vision Studio App User Guide for Acquisition Mode"
+    },
+    {
+      "type": "doc",
+      "id": "gentl-producer-for-matlab-usage/gentl-producer-for-matlab-usage",
+      "label": "GenTL Producer for MATLAB Usage"
+    },
+    {
+      "type": "doc",
+      "id": "kaya-frame-grabber-feature-guide/kaya-frame-grabber-feature-guide",
+      "label": "KAYA Frame Grabber Feature Guide"
+    },
+    {
+      "type": "doc",
+      "id": "kaya-serial-port-api-data-book/kaya-serial-port-api-data-book",
+      "label": "KAYA Serial Port API Data Book"
+    },
+    {
+      "type": "doc",
+      "id": "kaya-frame-grabbers-direct-gpu-support-guide/kaya-frame-grabbers-direct-gpu-support-guide",
+      "label": "KAYA Frame Grabbers Direct GPU Support Guide"
+    },
+    {
+      "type": "doc",
+      "id": "kaya-frame-grabbers-pocxp-application-notes/kaya-frame-grabbers-pocxp-application-notes",
+      "label": "KAYA Frame Grabbers PoCXP Application Notes"
+    }
+  ]
+}
