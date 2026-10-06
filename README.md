@@ -42,6 +42,14 @@ existing release, update its files in `versioned_docs/` and matching sidebar.
 DocsBuilder exports must target these standard paths and use `docsSidebar`.
 Downloadable PDFs remain in `static/downloads/sdk/`.
 
+DocsBuilder's standalone `[Download PDF](/downloads/sdk/File name.pdf)` links
+work even when filenames contain spaces. The local Remark plugin in
+`plugins/pdf-links/index.mjs` repairs these links before Docusaurus resolves the
+PDF assets, for both local development and production builds across all docs
+versions. Existing encoded links and code examples are preserved. Keep each PDF
+in `static/downloads/sdk/` with the filename used in the link. If changing the
+exporter, prefer emitting valid Markdown URLs with spaces encoded as `%20`.
+
 Published versions use `/<version>/` beneath the site's base path, for example
 `/sar-sw-vp2-documentation/2026.2.0/`. The home page follows the latest published
 version automatically.

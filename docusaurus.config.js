@@ -7,6 +7,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import {readFileSync} from 'node:fs';
 import aiSitemap from './plugins/ai-sitemap/index.mjs';
+import pdfLinks from './plugins/pdf-links/index.mjs';
 
 const versionsPath = new URL('./versions.json', import.meta.url);
 const versions = JSON.parse(readFileSync(versionsPath, 'utf8'));
@@ -70,6 +71,7 @@ const config = {
           path: 'docs',
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
+          beforeDefaultRemarkPlugins: [pdfLinks],
           includeCurrentVersion: false,
           lastVersion: versions[0],
           versions: versionConfig,
@@ -87,6 +89,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'algolia-site-verification', content: 'BFBC36BD49EACDD1'},
+      ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {

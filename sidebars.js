@@ -42,8 +42,8 @@ const sidebars = {
     },
     {
       "type": "doc",
-      "id": "kaya-frame-grabber-feature-guide/kaya-frame-grabber-feature-guide",
-      "label": "KAYA Frame Grabber Feature Guide"
+      "id": "kaya-frame-grabbers-feature-guide/kaya-frame-grabbers-feature-guide",
+      "label": "KAYA Frame Grabbers Feature Guide"
     },
     {
       "type": "doc",
@@ -52,8 +52,8 @@ const sidebars = {
     },
     {
       "type": "doc",
-      "id": "kaya-frame-grabbers-direct-gpu-support-guide/kaya-frame-grabbers-direct-gpu-support-guide",
-      "label": "KAYA Frame Grabbers Direct GPU Support Guide"
+      "id": "kaya-frame-grabbers-direct-gpu-integration-guide/kaya-frame-grabbers-direct-gpu-integration-guide",
+      "label": "KAYA Frame Grabbers Direct GPU Integration Guide"
     },
     {
       "type": "doc",
