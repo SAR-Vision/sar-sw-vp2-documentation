@@ -15,12 +15,12 @@ const versionConfig = Object.fromEntries(
   versions.map(version => [version, {label: version, path: version}]),
 );
 
-// Replace these placeholders through environment variables when the Algolia
-// DocSearch index is ready. Only a search-only API key should be exposed here.
+// Environment variables can override these DocSearch connection settings.
+// Only a public search-only API key should be exposed here.
 const algoliaConfig = {
-  appId: process.env.ALGOLIA_APP_ID || 'YOUR_APP_ID',
-  apiKey: process.env.ALGOLIA_SEARCH_API_KEY || 'YOUR_SEARCH_ONLY_API_KEY',
-  indexName: process.env.ALGOLIA_INDEX_NAME || 'YOUR_INDEX_NAME',
+  appId: process.env.ALGOLIA_APP_ID,
+  apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
+  indexName: process.env.ALGOLIA_INDEX_NAME,
   contextualSearch: true,
 };
 

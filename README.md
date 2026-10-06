@@ -87,7 +87,37 @@ When the Algolia DocSearch index is ready, set repository Actions variables
 `ALGOLIA_APP_ID`, `ALGOLIA_SEARCH_API_KEY`, and `ALGOLIA_INDEX_NAME`, then rerun
 the workflow. Use only a public search-only API key: these values are included
 in the browser bundle. Configure the index crawler for the published Pages URL.
-Until these values are configured, search still uses placeholder credentials.
+All three environment variables must be provided for search to work.
+
+The replacement hosted crawler configuration is in `algolia/crawler.config.js`.
+Paste it into **Algolia → Data sources → Crawler → your crawler → Editor**,
+restoring the existing indexing API key only in that dashboard. Do not save the
+indexing key in this repository or use it as the site's public search key.
+
+The replacement targets a new index, `sar_vision_github_io_m5lyz612bl_docsearch`,
+so its DocSearch settings are initialized correctly. Algolia's
+`initialIndexSettings` does not update an existing index. Test the API Data Book
+and a short guide in URL Tester before saving and starting a full crawl. Once
+the crawl succeeds, set `ALGOLIA_INDEX_NAME` to that new name, verify the site's
+search-only key can access it, and rebuild/deploy the site.
+
+The crawler uses the sitemap and includes all published versions. It retains
+the monthly schedule on the 22nd and raises the URL cap to 1,000. This cap is
+separate from account quotas and the per-page record limit. It indexes HTML
+documentation; PDF downloads and generated assets are excluded.
+
+The extractor groups content under `h1` through `h5` headings, retaining `h6`
+text, code, lists, and every table column. The API guide has over 1,000 `h6`
+headings, so a record for each heading would exceed Algolia's 750-record limit
+per page. Text is split into small records with DocSearch hierarchy and
+Docusaurus language/version metadata. Results link to the containing section.
+Oversized records or pages fail explicitly instead of silently losing content.
+After building, run `node algolia/verify-crawler.cjs` to check the extractor
+against the generated HTML. This verifies local extraction, not hosted crawling
+or the account's index permissions.
+
+References: [Docusaurus search](https://docusaurus.io/docs/search) and
+[DocSearch record limits](https://docsearch.algolia.com/docs/record-extractor/).
 
 ## AI agent discovery
 
