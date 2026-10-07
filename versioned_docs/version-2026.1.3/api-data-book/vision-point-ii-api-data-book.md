@@ -4986,9 +4986,9 @@ KY_RESULT KYVPLibTL_GetPortURL(KYVPLibTL_GetPortUrl_Args *_pArgs)
 
 Retrieves port URL information for the system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_GetPortUrl\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_GetPortUrl_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_GetPortUrl\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5002,9 +5002,9 @@ KY_RESULT KYVPLibTL_ReadPort(KYVPLibTL_ReadPort_Args *_pArgs)
 
 Reads bytes from the specified address on the system port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_ReadPort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_ReadPort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_ReadPort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5018,9 +5018,9 @@ KY_RESULT KYVPLibTL_WritePort(KYVPLibTL_WritePort_Args *_pArgs)
 
 Writes bytes to the specified address on the system port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_WritePort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_WritePort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_WritePort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5034,9 +5034,9 @@ KY_RESULT KYVPLibTL_PCIInterface_GetPortURL(KYVPLibTL_PCIInterface_GetPortUrl_Ar
 
 Retrieves port URL information for the PCI interface module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_PCIInterface\_GetPortUrl\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_PCIInterface_GetPortUrl_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_PCIInterface\_GetPortUrl\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5050,9 +5050,9 @@ KY_RESULT KYVPLibTL_PCIInterface_ReadPort(KYVPLibTL_PCIInterface_ReadPort_Args *
 
 Reads bytes from the specified address on the PCI interface port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_PCIInterface\_ReadPort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_PCIInterface_ReadPort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_PCIInterface\_ReadPort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5066,9 +5066,9 @@ KY_RESULT KYVPLibTL_PCIInterface_WritePort(KYVPLibTL_PCIInterface_WritePort_Args
 
 Writes bytes to the specified address on the PCI interface port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_PCIInterface\_WritePort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_PCIInterface_WritePort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_PCIInterface\_WritePort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5082,9 +5082,9 @@ KY_RESULT KYVPLibTL_Device_GetPortURL(KYVPLibTL_Device_GetPortUrl_Args *_pArgs)
 
 Retrieves port URL information for the device module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_Device\_GetPortUrl\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_Device_GetPortUrl_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_Device\_GetPortUrl\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5098,9 +5098,9 @@ KY_RESULT KYVPLibTL_Device_ReadPort(KYVPLibTL_Device_ReadPort_Args *_pArgs)
 
 Reads bytes from the specified address on the device port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_Device\_ReadPort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_Device_ReadPort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_Device\_ReadPort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5114,9 +5114,9 @@ KY_RESULT KYVPLibTL_Device_WritePort(KYVPLibTL_Device_WritePort_Args *_pArgs)
 
 Writes bytes to the specified address on the device port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_Device\_WritePort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_Device_WritePort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_Device\_WritePort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5130,9 +5130,9 @@ KY_RESULT KYVPLibTL_RemoteDevice_GetPortURL(KYVPLibTL_RemoteDevice_GetPortUrl_Ar
 
 Retrieves port URL information for the remote device module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_RemoteDevice\_GetPortUrl\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_RemoteDevice_GetPortUrl_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_RemoteDevice\_GetPortUrl\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5146,9 +5146,9 @@ KY_RESULT KYVPLibTL_RemoteDevice_ReadPort(KYVPLibTL_RemoteDevice_ReadPort_Args *
 
 Reads bytes from the specified address on the remote device port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_RemoteDevice\_ReadPort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_RemoteDevice_ReadPort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_RemoteDevice\_ReadPort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5162,9 +5162,9 @@ KY_RESULT KYVPLibTL_RemoteDevice_WritePort(KYVPLibTL_RemoteDevice_WritePort_Args
 
 Writes bytes to the specified address on the remote device port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_RemoteDevice\_WritePort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_RemoteDevice_WritePort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_RemoteDevice\_WritePort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5178,9 +5178,9 @@ KY_RESULT KYVPLibTL_Stream_GetPortURL(KYVPLibTL_Stream_GetPortUrl_Args *_pArgs)
 
 Retrieves port URL information for the data stream module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_Stream\_GetPortUrl\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_Stream_GetPortUrl_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_Stream\_GetPortUrl\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5194,9 +5194,9 @@ KY_RESULT KYVPLibTL_Stream_ReadPort(KYVPLibTL_Stream_ReadPort_Args *_pArgs)
 
 Reads bytes from the specified address on the data stream port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_Stream\_ReadPort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_Stream_ReadPort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_Stream\_ReadPort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5210,9 +5210,9 @@ KY_RESULT KYVPLibTL_Stream_WritePort(KYVPLibTL_Stream_WritePort_Args *_pArgs)
 
 Writes bytes to the specified address on the data stream port.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_Stream\_WritePort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_Stream_WritePort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_Stream\_WritePort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5226,9 +5226,9 @@ KY_RESULT KYVPLibTL_TLOpen(KYVPLibTL_TLOpen_Args *_pArgs)
 
 Opens the transport layer system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_TLOpen\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_TLOpen_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_TLOpen\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5246,9 +5246,9 @@ KY_RESULT KYVPLibTL_TLClose(KYVPLibTL_TLClose_Args *_pArgs)
 
 Closes the transport layer system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_TLClose\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_TLClose_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_TLClose\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5262,9 +5262,9 @@ KY_RESULT KYVPLibTL_TLGetInfo(KYVPLibTL_TLGetInfo_Args *_pArgs)
 
 Queries information about the system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_TLGetInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_TLGetInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_TLGetInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5278,9 +5278,9 @@ KY_RESULT KYVPLibTL_TLGetNumInterfaces(KYVPLibTL_TLGetNumInterfaces_Args *_pArgs
 
 Queries the number of available interfaces on this System module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_TLGetNumInterfaces\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_TLGetNumInterfaces_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_TLGetNumInterfaces\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5294,9 +5294,9 @@ KY_RESULT KYVPLibTL_TLGetInterfaceID(KYVPLibTL_TLGetInterfaceID_Args *_pArgs)
 
 Queries the unique ID of the interface at iIndex in the internal interface list.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_TLGetInterfaceID\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_TLGetInterfaceID_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_TLGetInterfaceID\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5310,9 +5310,9 @@ KY_RESULT KYVPLibTL_TLGetInterfaceInfo(KYVPLibTL_TLGetPCIInterfaceInfo_Args *_pA
 
 Queries information about an interface on the system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_TLGetPCIInterfaceInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_TLGetPCIInterfaceInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_TLGetPCIInterfaceInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5326,9 +5326,9 @@ KY_RESULT KYVPLibTL_TLOpenInterface(KYVPLibTL_TLOpenInterface_Args *_pArgs)
 
 Opens the given interface ID.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_TLOpenInterface\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_TLOpenInterface_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_TLOpenInterface\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5342,9 +5342,9 @@ KY_RESULT KYVPLibTL_TLUpdateInterfaceList(KYVPLibTL_TLUpdatePCIInterfaceList_Arg
 
 Updates the internal list of available interfaces.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_TLUpdatePCIInterfaceList\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_TLUpdatePCIInterfaceList_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_TLUpdatePCIInterfaceList\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5358,9 +5358,9 @@ KY_RESULT KYVPLibTL_IFClose(KYVPLibTL_IFClose_Args *_pArgs)
 
 Closes the Interface module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFClose\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFClose_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFClose\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5374,9 +5374,9 @@ KY_RESULT KYVPLibTL_IFGetInfo(KYVPLibTL_IFGetInfo_Args *_pArgs)
 
 Inquires information about the Interface module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFGetInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFGetInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFGetInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5390,9 +5390,9 @@ KY_RESULT KYVPLibTL_IFGetNumDevices(KYVPLibTL_IFGetNumDevices_Args *_pArgs)
 
 Queries the number of available devices on this Interface module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFGetNumDevices\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFGetNumDevices_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFGetNumDevices\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5406,9 +5406,9 @@ KY_RESULT KYVPLibTL_IFGetDeviceID(KYVPLibTL_IFGetDeviceID_Args *_pArgs)
 
 Queries the unique ID of the device at iIndex in the internal device list.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFGetDeviceID\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFGetDeviceID_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFGetDeviceID\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5422,9 +5422,9 @@ KY_RESULT KYVPLibTL_IFUpdateDeviceList(KYVPLibTL_IFUpdateDeviceList_Args *_pArgs
 
 Updates the internal list of available devices.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFUpdateDeviceList\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFUpdateDeviceList_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFUpdateDeviceList\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5438,9 +5438,9 @@ KY_RESULT KYVPLibTL_IFGetDeviceInfo(KYVPLibTL_IFGetDeviceInfo_Args *_pArgs)
 
 Inquires information about a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFGetDeviceInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFGetDeviceInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFGetDeviceInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5454,9 +5454,9 @@ KY_RESULT KYVPLibTL_IFOpenDevice(KYVPLibTL_IFOpenDevice_Args *_pArgs)
 
 Opens the specified device with the requested access flags.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFOpenDevice\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFOpenDevice_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFOpenDevice\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5470,9 +5470,9 @@ KY_RESULT KYVPLibTL_IFRegisterEvent(KYVPLibTL_IFRegisterEvent_Args *_pArgs)
 
 Registers an event on a PCI interface.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFRegisterEvent\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFRegisterEvent_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFRegisterEvent\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5486,9 +5486,9 @@ KY_RESULT KYVPLibTL_IFUnregisterEvent(KYVPLibTL_IFUnregisterEvent_Args *_pArgs)
 
 Unregisters an event from a PCI interface.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_IFUnregisterEvent\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_IFUnregisterEvent_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_IFUnregisterEvent\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5502,9 +5502,9 @@ KY_RESULT KYVPLibTL_DevGetPort(KYVPLibTL_DevGetPort_Args *_pArgs)
 
 Retrieves the port handle for the associated remote device.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DevGetPort\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DevGetPort_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DevGetPort\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5518,9 +5518,9 @@ KY_RESULT KYVPLibTL_DevGetNumDataStreams(KYVPLibTL_DevGetNumDataStreams_Args *_p
 
 Queries the number of available data streams on this Device module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DevGetNumDataStreams\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DevGetNumDataStreams_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DevGetNumDataStreams\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5534,9 +5534,9 @@ KY_RESULT KYVPLibTL_DevGetDataStreamID(KYVPLibTL_DevGetDataStreamID_Args *_pArgs
 
 Queries the unique ID of the data stream at iIndex in the internal data stream list.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DevGetDataStreamID\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DevGetDataStreamID_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DevGetDataStreamID\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5550,9 +5550,9 @@ KY_RESULT KYVPLibTL_DevOpenDataStream(KYVPLibTL_DevOpenDataStream_Args *_pArgs)
 
 Opens the specified data stream on a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DevOpenDataStream\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DevOpenDataStream_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DevOpenDataStream\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5566,9 +5566,9 @@ KY_RESULT KYVPLibTL_DevGetInfo(KYVPLibTL_DevGetInfo_Args *_pArgs)
 
 Inquires information about a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DevGetInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DevGetInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DevGetInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5582,9 +5582,9 @@ KY_RESULT KYVPLibTL_DevClose(KYVPLibTL_DevClose_Args *_pArgs)
 
 Closes the device module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DevClose\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DevClose_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DevClose\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5598,9 +5598,9 @@ KY_RESULT KYVPLibTL_DevRegisterEvent(KYVPLibTL_DevRegisterEvent_Args *_pArgs)
 
 Registers an event on a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DevRegisterEvent\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DevRegisterEvent_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DevRegisterEvent\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5614,9 +5614,9 @@ KY_RESULT KYVPLibTL_DevUnregisterEvent(KYVPLibTL_DevUnregisterEvent_Args *_pArgs
 
 Unregisters an event from a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DevUnregisterEvent\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DevUnregisterEvent_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DevUnregisterEvent\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5632,9 +5632,9 @@ Announces caller-allocated memory to a data stream.
 
 The returned buffer handle references this memory until the buffer is revoked.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSAnnounceBuffer\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSAnnounceBuffer_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSAnnounceBuffer\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5650,9 +5650,9 @@ Allocates memory for a buffer and announces it to a data stream.
 
 The returned buffer handle references this memory until the buffer is revoked.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSAllocAndAnnounceBuffer\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSAllocAndAnnounceBuffer_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSAllocAndAnnounceBuffer\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5668,9 +5668,9 @@ Starts acquisition on the host.
 
 Start acquisition on the remote device separately after this call.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSStartAcquisition\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSStartAcquisition_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSStartAcquisition\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5686,9 +5686,9 @@ Stops acquisition on the host.
 
 Stop acquisition on the remote device separately after this call.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSStopAcquisition\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSStopAcquisition_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSStopAcquisition\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5702,9 +5702,9 @@ KY_RESULT KYVPLibTL_DSGetInfo(KYVPLibTL_DSGetInfo_Args *_pArgs)
 
 Queries information about the data stream module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSGetInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSGetInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSGetInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5718,9 +5718,9 @@ KY_RESULT KYVPLibTL_DSGetBufferID(KYVPLibTL_DSGetBufferID_Args *_pArgs)
 
 Queries a buffer handle by its index in the data stream.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSGetBufferID\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSGetBufferID_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSGetBufferID\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5734,9 +5734,9 @@ KY_RESULT KYVPLibTL_DSClose(KYVPLibTL_DSClose_Args *_pArgs)
 
 Closes the data stream module.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSClose\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSClose_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSClose\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5750,9 +5750,9 @@ KY_RESULT KYVPLibTL_DSRevokeBuffer(KYVPLibTL_DSRevokeBuffer_Args *_pArgs)
 
 Removes an announced buffer from the acquisition engine.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSRevokeBuffer\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSRevokeBuffer_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSRevokeBuffer\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5766,9 +5766,9 @@ KY_RESULT KYVPLibTL_DSQueueBuffer(KYVPLibTL_DSQueueBuffer_Args *_pArgs)
 
 Queues a buffer for acquisition.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSQueueBuffer\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSQueueBuffer_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSQueueBuffer\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5782,9 +5782,9 @@ KY_RESULT KYVPLibTL_DSFlushQueue(KYVPLibTL_DSFlushQueue_Args *_pArgs)
 
 Moves or discards queued buffers according to the requested queue operation.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSFlushQueue\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSFlushQueue_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSFlushQueue\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5798,9 +5798,9 @@ KY_RESULT KYVPLibTL_DSGetBufferInfo(KYVPLibTL_DSGetBufferInfo_Args *_pArgs)
 
 Queries information about a buffer on a data stream.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSGetBufferInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSGetBufferInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSGetBufferInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5816,9 +5816,9 @@ Registers an event on a data stream.
 
 The implementation may differ between platforms.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSRegisterEvent\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSRegisterEvent_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSRegisterEvent\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5832,9 +5832,9 @@ KY_RESULT KYVPLibTL_DSUnregisterEvent(KYVPLibTL_DSUnregisterEvent_Args *_pArgs)
 
 Unregisters the specified event from a data stream.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_DSUnregisterEvent\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_DSUnregisterEvent_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_DSUnregisterEvent\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5848,9 +5848,9 @@ KY_RESULT KYVPLibTL_EventGetData(KYVPLibTL_EventGetData_Args *_pArgs)
 
 Retrieves the next data entry from the event queue.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_EventGetData\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_EventGetData_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_EventGetData\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5864,9 +5864,9 @@ KY_RESULT KYVPLibTL_EventGetDataInfo(KYVPLibTL_EventGetDataInfo_Args *_pArgs)
 
 Queries information about an event data buffer.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_EventGetDataInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_EventGetDataInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_EventGetDataInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5880,9 +5880,9 @@ KY_RESULT KYVPLibTL_EventGetInfo(KYVPLibTL_EventGetInfo_Args *_pArgs)
 
 Queries information about an event object.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_EventGetInfo\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_EventGetInfo_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_EventGetInfo\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5896,9 +5896,9 @@ KY_RESULT KYVPLibTL_EventFlush(KYVPLibTL_EventFlush_Args *_pArgs)
 
 Flushes the queue of an event object.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_EventFlush\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_EventFlush_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_EventFlush\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5912,9 +5912,9 @@ KY_RESULT KYVPLibTL_EventKill(KYVPLibTL_EventKill_Args *_pArgs)
 
 Terminates a waiting operation on a previously registered event object.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Pointer to the initialized KYVPLibTL\_EventKill\_Args arguments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPLibTL_EventKill_Args* ` | IN/OUT. Pointer to the initialized KYVPLibTL\_EventKill\_Args arguments. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5928,11 +5928,11 @@ KY_RESULT KYVPLibTL_GetPortURL_V1(KYVP_TL_HANDLE _hTLHandle, char *_pszURL, size
 
 Retrieves port URL information for the system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | TL Handle. |
-| `_pszURL` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. TL Handle. |
+| ` _pszURL ` | ` char* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5948,12 +5948,12 @@ KY_RESULT KYVPLibTL_ReadPort_V1(KYVP_TL_HANDLE _hTLHandle, uint64_t _iAddress, v
 
 Reads bytes from the specified address on the system port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | TL Handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. TL Handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5969,12 +5969,12 @@ KY_RESULT KYVPLibTL_WritePort_V1(KYVP_TL_HANDLE _hTLHandle, uint64_t _iAddress, 
 
 Writes bytes to the specified address on the system port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | TL Handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated const buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. TL Handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` const void* ` | IN. Pointer to caller-allocated const buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -5990,11 +5990,11 @@ KY_RESULT KYVPLibTL_PCIInterface_GetPortURL_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHan
 
 Retrieves port URL information for the PCI interface module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface Handle. |
-| `_pszURL` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface Handle. |
+| ` _pszURL ` | ` char* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6010,12 +6010,12 @@ KY_RESULT KYVPLibTL_PCIInterface_ReadPort_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandl
 
 Reads bytes from the specified address on the PCI interface port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface Handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface Handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6031,12 +6031,12 @@ KY_RESULT KYVPLibTL_PCIInterface_WritePort_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHand
 
 Writes bytes to the specified address on the PCI interface port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface Handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated const buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface Handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` const void* ` | IN. Pointer to caller-allocated const buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6052,11 +6052,11 @@ KY_RESULT KYVPLibTL_Device_GetPortURL_V1(KYVP_DEVICE_HANDLE _hDevHandle, char *_
 
 Retrieves port URL information for the device module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Local device handle. |
-| `_pszURL` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Local device handle. |
+| ` _pszURL ` | ` char* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6072,12 +6072,12 @@ KY_RESULT KYVPLibTL_Device_ReadPort_V1(KYVP_DEVICE_HANDLE _hDevHandle, uint64_t 
 
 Reads bytes from the specified address on the device port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Local device handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Local device handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6093,12 +6093,12 @@ KY_RESULT KYVPLibTL_Device_WritePort_V1(KYVP_DEVICE_HANDLE _hDevHandle, uint64_t
 
 Writes bytes to the specified address on the device port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Local device handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated const buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Local device handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` const void* ` | IN. Pointer to caller-allocated const buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6114,11 +6114,11 @@ KY_RESULT KYVPLibTL_RemoteDevice_GetPortURL_V1(KYVP_REMOTE_DEVICE_HANDLE _hRemot
 
 Retrieves port URL information for the remote device module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hRemoteDeviceHandle` | Remote device handle. |
-| `_pszURL` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hRemoteDeviceHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Remote device handle. |
+| ` _pszURL ` | ` char* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6134,12 +6134,12 @@ KY_RESULT KYVPLibTL_RemoteDevice_ReadPort_V1(KYVP_REMOTE_DEVICE_HANDLE _hRemoteD
 
 Reads bytes from the specified address on the remote device port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hRemoteDeviceHandle` | Remote device handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hRemoteDeviceHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Remote device handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6155,12 +6155,12 @@ KY_RESULT KYVPLibTL_RemoteDevice_WritePort_V1(KYVP_REMOTE_DEVICE_HANDLE _hRemote
 
 Writes bytes to the specified address on the remote device port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hRemoteDeviceHandle` | Remote device handle. |
-| `_iAddress` | Port Address. |
-| `_pBuffer` | Pointer to caller-allocated const buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hRemoteDeviceHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Remote device handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port Address. |
+| ` _pBuffer ` | ` const void* ` | IN. Pointer to caller-allocated const buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6176,11 +6176,11 @@ KY_RESULT KYVPLibTL_Stream_GetPortURL_V1(KYVP_STREAM_HANDLE _hStreamHandle, char
 
 Retrieves port URL information for the data stream module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hStreamHandle` | Stream handle. |
-| `_pszURL` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hStreamHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Stream handle. |
+| ` _pszURL ` | ` char* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6196,12 +6196,12 @@ KY_RESULT KYVPLibTL_Stream_ReadPort_V1(KYVP_STREAM_HANDLE _hStreamHandle, uint64
 
 Reads bytes from the specified address on the data stream port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hStreamHandle` | Stream handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hStreamHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Stream handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6217,12 +6217,12 @@ KY_RESULT KYVPLibTL_Stream_WritePort_V1(KYVP_STREAM_HANDLE _hStreamHandle, uint6
 
 Writes bytes to the specified address on the data stream port.
 
-| Parameter | Description |
-| --- | --- |
-| `_hStreamHandle` | Stream handle. |
-| `_iAddress` | Port address. |
-| `_pBuffer` | Pointer to caller-allocated const buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hStreamHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Stream handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Port address. |
+| ` _pBuffer ` | ` const void* ` | IN. Pointer to caller-allocated const buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6238,9 +6238,9 @@ KY_RESULT KYVPLibTL_TLOpen_V1(KYVP_TL_HANDLE *_phTLHandle)
 
 Opens the transport layer system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_phTLHandle` | Pointer to KYVP\_TL\_HANDLE. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _phTLHandle ` | ` KYVP_TL_HANDLE* ` | OUT. Pointer to KYVP\_TL\_HANDLE. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6256,9 +6256,9 @@ KY_RESULT KYVPLibTL_TLClose_V1(KYVP_TL_HANDLE _hTLHandle)
 
 Closes the transport layer system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | KYVP\_TL HANDLE. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. KYVP\_TL HANDLE. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6274,13 +6274,13 @@ KY_RESULT KYVPLibTL_TLGetInfo_V1(KYVP_TL_HANDLE _hTLHandle, KYVP_TL_INFO_CMD _eI
 
 Queries information about the system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | KYVP\_TL HANDLE. |
-| `_eInfoCmd` | Information to be retrieved as defined in KYVP\_TL\_INFO\_CMD. |
-| `_pType` | Data type of the pBuffer content as defined in the KYVP\_INFO\_DATATYPE. |
-| `_pBuffer` | Pointer to a caller-allocated buffer to receive the requested information. If this parameter is NULL, piSize will contain the minimal size of pBuffer in bytes. If the iType is a string the size includes the terminating 0. |
-| `_piSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. KYVP\_TL HANDLE. |
+| ` _eInfoCmd ` | ` KYVP_TL_INFO_CMD ` | IN. Information to be retrieved as defined in KYVP\_TL\_INFO\_CMD. |
+| ` _pType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Data type of the pBuffer content as defined in the KYVP\_INFO\_DATATYPE. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer to receive the requested information. If this parameter is NULL, piSize will contain the minimal size of pBuffer in bytes. If the iType is a string the size includes the terminating 0. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6296,10 +6296,10 @@ KY_RESULT KYVPLibTL_TLGetNumInterfaces_V1(KYVP_TL_HANDLE _hTLHandle, uint32_t *_
 
 Queries the number of available interfaces on this System module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | KYVP\_TL\_HANDLE. |
-| `_piNumIfaces` | Pointer to caller-allocated uint32\_t. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. KYVP\_TL\_HANDLE. |
+| ` _piNumIfaces ` | ` uint32_t* ` | OUT. Pointer to caller-allocated uint32\_t. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6315,12 +6315,12 @@ KY_RESULT KYVPLibTL_TLGetInterfaceID_V1(KYVP_TL_HANDLE _hTLHandle, uint32_t _iIn
 
 Queries the unique ID of the interface at iIndex in the internal interface list.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | KYVP\_TL\_HANDLE. |
-| `_iIndex` | Interface index. |
-| `_pszID` | Pointer to caller-allocated char\* buffer. |
-| `_piSize` | Pointer to caller-allocated size\_t\* buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. KYVP\_TL\_HANDLE. |
+| ` _iIndex ` | ` uint32_t ` | IN. Interface index. |
+| ` _pszID ` | ` char* ` | OUT. Pointer to caller-allocated char\* buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Pointer to caller-allocated size\_t\* buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6336,14 +6336,14 @@ KY_RESULT KYVPLibTL_TLGetInterfaceInfo_V1(KYVP_TL_HANDLE _hTLHandle, const char 
 
 Queries information about an interface on the system module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | KYVP\_TL\_HANDLE. |
-| `_pszIfaceID` | Interface ID from KYVPLibTL\_TLGetInterfaceID func. |
-| `_eInfoCmd` | Information to be retrieved. |
-| `_pType` | Data type of the pBuffer content. |
-| `_pBuffer` | Pointer to a caller-allocated buffer. |
-| `_piSize` | Out: minimal size of pBuffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. KYVP\_TL\_HANDLE. |
+| ` _pszIfaceID ` | ` const char* ` | IN. Interface ID from KYVPLibTL\_TLGetInterfaceID func. |
+| ` _eInfoCmd ` | ` KYVP_INTERFACE_INFO_CMD ` | IN. Information to be retrieved. |
+| ` _pType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Data type of the pBuffer content. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Out: minimal size of pBuffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6359,11 +6359,11 @@ KY_RESULT KYVPLibTL_TLOpenInterface_V1(KYVP_TL_HANDLE _hTLHandle, const char *_p
 
 Opens the given interface ID.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | KYVP\_TL\_HANDLE. |
-| `_pszIfaceID` | Unique interface ID to open as a null-terminated C string. |
-| `_phPCIInterfaceHandle` | Pointer to KYVP\_PCI\_INTERFACE\_HANDLE. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. KYVP\_TL\_HANDLE. |
+| ` _pszIfaceID ` | ` const char* ` | IN. Unique interface ID to open as a null-terminated C string. |
+| ` _phPCIInterfaceHandle ` | ` KYVP_PCI_INTERFACE_HANDLE* ` | OUT. Pointer to KYVP\_PCI\_INTERFACE\_HANDLE. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6379,11 +6379,11 @@ KY_RESULT KYVPLibTL_TLUpdateInterfaceList_V1(KYVP_TL_HANDLE _hTLHandle, KY_BOOL 
 
 Updates the internal list of available interfaces.
 
-| Parameter | Description |
-| --- | --- |
-| `_hTLHandle` | KYVP\_TL\_HANDLE. |
-| `_pbChanged` | Contains KY\_TRUE if the internal list was changed and KY\_FALSE otherwise. If set to NULL nothing is written to this parameter. |
-| `_iTimeout` | Timeout in ms. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hTLHandle ` | ` KYVP_TL_HANDLE ` | IN. KYVP\_TL\_HANDLE. |
+| ` _pbChanged ` | ` KY_BOOL* ` | OUT. Contains KY\_TRUE if the internal list was changed and KY\_FALSE otherwise. If set to NULL nothing is written to this parameter. |
+| ` _iTimeout ` | ` uint64_t ` | IN. Timeout in ms. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6399,9 +6399,9 @@ KY_RESULT KYVPLibTL_IFClose_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle)
 
 Closes the Interface module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | System module handle to close. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. System module handle to close. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6417,13 +6417,13 @@ KY_RESULT KYVPLibTL_IFGetInfo_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, KYVP_INTE
 
 Inquires information about the Interface module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface module to work on. |
-| `_eInfoCmd` | Information to be retrieved. |
-| `_pType` | Pointer to data type of the pBuffer content. |
-| `_pBuffer` | Pointer to a caller-allocated buffer. |
-| `_piSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface module to work on. |
+| ` _eInfoCmd ` | ` KYVP_INTERFACE_INFO_CMD ` | IN. Information to be retrieved. |
+| ` _pType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Pointer to data type of the pBuffer content. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6439,10 +6439,10 @@ KY_RESULT KYVPLibTL_IFGetNumDevices_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, uin
 
 Queries the number of available devices on this Interface module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface module to work on. |
-| `_pNumDevices` | Number of devices. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface module to work on. |
+| ` _pNumDevices ` | ` uint32_t* ` | OUT. Number of devices. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6458,12 +6458,12 @@ KY_RESULT KYVPLibTL_IFGetDeviceID_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, uint3
 
 Queries the unique ID of the device at iIndex in the internal device list.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface module to work on. |
-| `_iIndex` | Device index. |
-| `_pszID` | Pointer to a caller-allocated C string buffer to receive the Device module ID at the given iIndex. |
-| `_piSize` | Minimal size of pBuffer in bytes to hold all information. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface module to work on. |
+| ` _iIndex ` | ` uint32_t ` | IN. Device index. |
+| ` _pszID ` | ` char* ` | OUT. Pointer to a caller-allocated C string buffer to receive the Device module ID at the given iIndex. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Minimal size of pBuffer in bytes to hold all information. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6479,11 +6479,11 @@ KY_RESULT KYVPLibTL_IFUpdateDeviceList_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, 
 
 Updates the internal list of available devices.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface module to work on. |
-| `_pbChanged` | Contains KY\_TRUE if the internal list was changed and KY\_FALSE otherwise. |
-| `_uTimeout` | Timeout in ms. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface module to work on. |
+| ` _pbChanged ` | ` KY_BOOL* ` | OUT. Contains KY\_TRUE if the internal list was changed and KY\_FALSE otherwise. |
+| ` _uTimeout ` | ` uint64_t ` | IN. Timeout in ms. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6499,12 +6499,12 @@ KY_RESULT KYVPLibTL_IFUpdateDeviceList_V2(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, 
 
 Updates the internal list of available devices.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface module to work on. |
-| `_pbChanged` | Contains KY\_TRUE if the internal list was changed and KY\_FALSE otherwise. |
-| `_uTimeout` | Timeout in ms. |
-| `_bRetainOpenDevices` | KY\_TRUE preserves open devices in all processes. KY\_FALSE closes this process's devices, clears its device lists and performs fresh detection. Devices opened by other processes are preserved in both modes. Since version 2; defaults to KY\_TRUE. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface module to work on. |
+| ` _pbChanged ` | ` KY_BOOL* ` | OUT. Contains KY\_TRUE if the internal list was changed and KY\_FALSE otherwise. |
+| ` _uTimeout ` | ` uint64_t ` | IN. Timeout in ms. |
+| ` _bRetainOpenDevices ` | ` KY_BOOL ` | IN. KY\_TRUE preserves open devices in all processes. KY\_FALSE closes this process's devices, clears its device lists and performs fresh detection. Devices opened by other processes are preserved in both modes. Since version 2; defaults to KY\_TRUE. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6520,14 +6520,14 @@ KY_RESULT KYVPLibTL_IFGetDeviceInfo_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, con
 
 Inquires information about a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface module to work on. |
-| `_pszIfaceID` | Unique ID of the device to inquire information about. |
-| `_eInfoCmd` | Information to be retrieved. |
-| `_pType` | Data type of the pBuffer content. |
-| `_pBuffer` | Pointer to a caller-allocated buffer. |
-| `_piSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface module to work on. |
+| ` _pszIfaceID ` | ` const char* ` | IN. Unique ID of the device to inquire information about. |
+| ` _eInfoCmd ` | ` KYVP_DEVICE_INFO_CMD ` | IN. Information to be retrieved. |
+| ` _pType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Data type of the pBuffer content. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6543,12 +6543,12 @@ KY_RESULT KYVPLibTL_IFOpenDevice_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, const 
 
 Opens the specified device with the requested access flags.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Interface module to work on. |
-| `_pszDeviceID` | Unique device ID to open as a null-terminated C string. |
-| `_iOpenFlags` | Configures the open process. |
-| `_phDeviceHandle` | Device handle of the newly created Device module. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Interface module to work on. |
+| ` _pszDeviceID ` | ` const char* ` | IN. Unique device ID to open as a null-terminated C string. |
+| ` _iOpenFlags ` | ` KYVP_DEVICE_ACCESS_FLAGS ` | IN. Configures the open process. |
+| ` _phDeviceHandle ` | ` KYVP_DEVICE_HANDLE* ` | OUT. Device handle of the newly created Device module. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6564,11 +6564,11 @@ KY_RESULT KYVPLibTL_IFRegisterEvent_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, KYV
 
 Registers an event on a PCI interface.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Module handle to access to register event to. |
-| `_iEventID` | Event type to register. |
-| `_phEvent` | New handle to an event object to work with. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Module handle to access to register event to. |
+| ` _iEventID ` | ` KYVP_EVENT_TYPE ` | IN. Event type to register. |
+| ` _phEvent ` | ` KYVP_EVENT_HANDLE* ` | OUT. New handle to an event object to work with. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6584,10 +6584,10 @@ KY_RESULT KYVPLibTL_IFUnregisterEvent_V1(KYVP_PCI_INTERFACE_HANDLE _hIFHandle, K
 
 Unregisters an event from a PCI interface.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | Module handle to access to unregister event from. |
-| `_iEventID` | Event type to register. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Module handle to access to unregister event from. |
+| ` _iEventID ` | ` KYVP_EVENT_TYPE ` | IN. Event type to register. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6603,10 +6603,10 @@ KY_RESULT KYVPLibTL_DevGetPort_V1(KYVP_DEVICE_HANDLE _hDevHandle, KYVP_REMOTE_DE
 
 Retrieves the port handle for the associated remote device.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device module to work on. |
-| `_phRemoteDeviceHandle` | Port handle for the remote device. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device module to work on. |
+| ` _phRemoteDeviceHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE* ` | OUT. Port handle for the remote device. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6622,10 +6622,10 @@ KY_RESULT KYVPLibTL_DevGetNumDataStreams_V1(KYVP_DEVICE_HANDLE _hDevHandle, uint
 
 Queries the number of available data streams on this Device module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device module to work on. |
-| `_piNumDataStreams` | Number of data stream on this Device module. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device module to work on. |
+| ` _piNumDataStreams ` | ` uint32_t* ` | OUT. Number of data stream on this Device module. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6641,12 +6641,12 @@ KY_RESULT KYVPLibTL_DevGetDataStreamID_V1(KYVP_DEVICE_HANDLE _hDevHandle, uint32
 
 Queries the unique ID of the data stream at iIndex in the internal data stream list.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device module to work on. |
-| `_iIndex` | Zero-based index of the data stream on this device. |
-| `_sDataStreamID` | Pointer to a caller-allocated C string buffer. |
-| `_piSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device module to work on. |
+| ` _iIndex ` | ` uint32_t ` | IN. Zero-based index of the data stream on this device. |
+| ` _sDataStreamID ` | ` char* ` | OUT. Pointer to a caller-allocated C string buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6662,11 +6662,11 @@ KY_RESULT KYVPLibTL_DevOpenDataStream_V1(KYVP_DEVICE_HANDLE _hDevHandle, const c
 
 Opens the specified data stream on a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device module to work on. |
-| `_pszDataStreamID` | Unique data stream ID to open as a null-terminated C string. |
-| `_phDataStream` | Data Stream module handle of the newly created stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device module to work on. |
+| ` _pszDataStreamID ` | ` const char* ` | IN. Unique data stream ID to open as a null-terminated C string. |
+| ` _phDataStream ` | ` KYVP_STREAM_HANDLE* ` | OUT. Data Stream module handle of the newly created stream. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6682,13 +6682,13 @@ KY_RESULT KYVPLibTL_DevGetInfo_V1(KYVP_DEVICE_HANDLE _hDevHandle, KYVP_DEVICE_IN
 
 Inquires information about a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device module to work on. |
-| `_iInfoCmd` | Information to be retrieved. |
-| `_piType` | Data type of the pBuffer content. |
-| `_pBuffer` | Pointer to a caller-allocated buffer. |
-| `_piSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device module to work on. |
+| ` _iInfoCmd ` | ` KYVP_DEVICE_INFO_CMD ` | IN. Information to be retrieved. |
+| ` _piType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Data type of the pBuffer content. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6704,9 +6704,9 @@ KY_RESULT KYVPLibTL_DevClose_V1(KYVP_DEVICE_HANDLE _hDevHandle)
 
 Closes the device module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device module handle to close. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device module handle to close. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6722,11 +6722,11 @@ KY_RESULT KYVPLibTL_DevRegisterEvent_V1(KYVP_DEVICE_HANDLE _hDevHandle, KYVP_EVE
 
 Registers an event on a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device handle to access to register event to. |
-| `_iEventID` | Event type to register. |
-| `_phEvent` | New handle to an event object to work with. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device handle to access to register event to. |
+| ` _iEventID ` | ` KYVP_EVENT_TYPE ` | IN. Event type to register. |
+| ` _phEvent ` | ` KYVP_EVENT_HANDLE* ` | OUT. New handle to an event object to work with. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6742,10 +6742,10 @@ KY_RESULT KYVPLibTL_DevUnregisterEvent_V1(KYVP_DEVICE_HANDLE _hDevHandle, KYVP_E
 
 Unregisters an event from a device.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device handle to access to unregister event from. |
-| `_iEventID` | Event type to unregister. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device handle to access to unregister event from. |
+| ` _iEventID ` | ` KYVP_EVENT_TYPE ` | IN. Event type to unregister. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6763,13 +6763,13 @@ Announces caller-allocated memory to a data stream.
 
 The returned buffer handle references this memory until the buffer is revoked.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_pBuffer` | Pointer to buffer memory to announce. |
-| `_iSize` | Size of the pBuffer in bytes. |
-| `_pPrivate` | Pointer to private data which will be passed to the GenTL Consumer on New Buffer events. This parameter may be NULL. |
-| `_phBuffer` | Buffer module handle of the newly announced buffer. I. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _pBuffer ` | ` void* ` | IN. Pointer to buffer memory to announce. |
+| ` _iSize ` | ` size_t ` | IN. Size of the pBuffer in bytes. |
+| ` _pPrivate ` | ` void* ` | IN. Pointer to private data which will be passed to the GenTL Consumer on New Buffer events. This parameter may be NULL. |
+| ` _phBuffer ` | ` KYVP_BUFFER_HANDLE* ` | OUT. Buffer module handle of the newly announced buffer. I. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6787,12 +6787,12 @@ Allocates memory for a buffer and announces it to a data stream.
 
 The returned buffer handle references this memory until the buffer is revoked.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_iSize` | Size of the buffer in bytes. |
-| `_pPrivate` | Pointer to private data which will be passed to the Consumer on New Buffer events. This parameter may be NULL. |
-| `_phBuffer` | Buffer module handle of the newly announced buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _iSize ` | ` size_t ` | IN. Size of the buffer in bytes. |
+| ` _pPrivate ` | ` void* ` | IN. Pointer to private data which will be passed to the Consumer on New Buffer events. This parameter may be NULL. |
+| ` _phBuffer ` | ` KYVP_BUFFER_HANDLE* ` | OUT. Buffer module handle of the newly announced buffer. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6810,11 +6810,11 @@ Starts acquisition on the host.
 
 Start acquisition on the remote device separately after this call.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_iStartFlags` | As defined in KYVP\_ACQ\_START\_FLAGS. |
-| `_iNumToAcquire` | Sets the number of filled/delivered buffers after which the acquisition engine stops automatically. Buffers that are internally discarded or missed are not counted. If set to 0, acquisition continues until a call to KYVPLibTL\_DSStopAcquisition. To achieve precise accuracy and fine control over the number of acquired frames, the use of triggers is recommended. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _iStartFlags ` | ` KYVP_ACQ_START_FLAGS ` | IN. As defined in KYVP\_ACQ\_START\_FLAGS. |
+| ` _iNumToAcquire ` | ` uint64_t ` | IN. Sets the number of filled/delivered buffers after which the acquisition engine stops automatically. Buffers that are internally discarded or missed are not counted. If set to 0, acquisition continues until a call to KYVPLibTL\_DSStopAcquisition. To achieve precise accuracy and fine control over the number of acquired frames, the use of triggers is recommended. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6832,10 +6832,10 @@ Stops acquisition on the host.
 
 Stop acquisition on the remote device separately after this call.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_iStopFlags` | Stops the acquisition as defined in KYVP\_ACQ\_STOP\_FLAGS. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _iStopFlags ` | ` KYVP_ACQ_STOP_FLAGS ` | IN. Stops the acquisition as defined in KYVP\_ACQ\_STOP\_FLAGS. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6851,13 +6851,13 @@ KY_RESULT KYVPLibTL_DSGetInfo_V1(KYVP_STREAM_HANDLE _hDSHandle, KYVP_STREAM_INFO
 
 Queries information about the data stream module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_eInfoCmd` | Information to be retrieved. |
-| `_pType` | Data type of the pBuffer content. |
-| `_pBuffer` | Pointer to a caller-allocated buffer to receive the requested information. |
-| `_piSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _eInfoCmd ` | ` KYVP_STREAM_INFO_CMD ` | IN. Information to be retrieved. |
+| ` _pType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Data type of the pBuffer content. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer to receive the requested information. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6873,11 +6873,11 @@ KY_RESULT KYVPLibTL_DSGetBufferID_V1(KYVP_STREAM_HANDLE _hDSHandle, uint32_t _iI
 
 Queries a buffer handle by its index in the data stream.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_iIndex` | Zero-based index of the buffer on this data stream. |
-| `_ppBufferHandle` | Buffer module handle of the given iIndex. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _iIndex ` | ` uint32_t ` | IN. Zero-based index of the buffer on this data stream. |
+| ` _ppBufferHandle ` | ` KYVP_BUFFER_HANDLE* ` | OUT. Buffer module handle of the given iIndex. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6893,9 +6893,9 @@ KY_RESULT KYVPLibTL_DSClose_V1(KYVP_STREAM_HANDLE _hDSHandle)
 
 Closes the data stream module.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6911,12 +6911,12 @@ KY_RESULT KYVPLibTL_DSRevokeBuffer_V1(KYVP_STREAM_HANDLE _hDSHandle, KYVP_BUFFER
 
 Removes an announced buffer from the acquisition engine.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_hBufferHandle` | Buffer handle to revoke. |
-| `_ppBuffer` | Pointer to the buffer memory This is for convenience if consumer allocated memory is used which is to be freed. If the buffer was allocated by the GenTL Producer NULL is to be returned. If the parameter is set to NULL it is ignored. |
-| `_ppPrivate` | Pointer to the user data pointer given in the announce function. If the parameter is set to NULL it is ignored. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _hBufferHandle ` | ` KYVP_BUFFER_HANDLE ` | IN. Buffer handle to revoke. |
+| ` _ppBuffer ` | ` void** ` | OUT. Pointer to the buffer memory This is for convenience if consumer allocated memory is used which is to be freed. If the buffer was allocated by the GenTL Producer NULL is to be returned. If the parameter is set to NULL it is ignored. |
+| ` _ppPrivate ` | ` void** ` | OUT. Pointer to the user data pointer given in the announce function. If the parameter is set to NULL it is ignored. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6932,10 +6932,10 @@ KY_RESULT KYVPLibTL_DSQueueBuffer_V1(KYVP_STREAM_HANDLE _hDSHandle, KYVP_BUFFER_
 
 Queues a buffer for acquisition.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_hBufferHandle` | Buffer handle to queue. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _hBufferHandle ` | ` KYVP_BUFFER_HANDLE ` | IN. Buffer handle to queue. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6951,10 +6951,10 @@ KY_RESULT KYVPLibTL_DSFlushQueue_V1(KYVP_STREAM_HANDLE _hDSHandle, KYVP_ACQ_QUEU
 
 Moves or discards queued buffers according to the requested queue operation.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_iOperation` | Flush operation type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _iOperation ` | ` KYVP_ACQ_QUEUE_TYPE ` | IN. Flush operation type. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6970,14 +6970,14 @@ KY_RESULT KYVPLibTL_DSGetBufferInfo_V1(KYVP_STREAM_HANDLE _hDSHandle, KYVP_BUFFE
 
 Queries information about a buffer on a data stream.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data Stream module to work on. |
-| `_hBufferHandle` | Buffer handle to retrieve information about. |
-| `_iInfoCmd` | Information to be retrieved. |
-| `_piType` | Data type of the pBuffer content. |
-| `_pBuffer` | Pointer to a caller-allocated buffer to receive the requested information. |
-| `_piSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data Stream module to work on. |
+| ` _hBufferHandle ` | ` KYVP_BUFFER_HANDLE ` | IN. Buffer handle to retrieve information about. |
+| ` _iInfoCmd ` | ` KYVP_BUFFER_INFO_CMD ` | IN. Information to be retrieved. |
+| ` _piType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Data type of the pBuffer content. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer to receive the requested information. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -6995,11 +6995,11 @@ Registers an event on a data stream.
 
 The implementation may differ between platforms.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Module handle to access to register event to. |
-| `_iEventID` | Event type to register. |
-| `_phEvent` | New handle to an event object to work with. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Module handle to access to register event to. |
+| ` _iEventID ` | ` KYVP_EVENT_TYPE ` | IN. Event type to register. |
+| ` _phEvent ` | ` KYVP_EVENT_HANDLE* ` | OUT. New handle to an event object to work with. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -7015,10 +7015,10 @@ KY_RESULT KYVPLibTL_DSUnregisterEvent_V1(KYVP_STREAM_HANDLE _hDSHandle, KYVP_EVE
 
 Unregisters the specified event from a data stream.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Module handle to access to unregister event from. |
-| `_iEventID` | Event type to register. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Module handle to access to unregister event from. |
+| ` _iEventID ` | ` KYVP_EVENT_TYPE ` | IN. Event type to register. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -7034,12 +7034,12 @@ KY_RESULT KYVPLibTL_EventGetData_V1(KYVP_EVENT_HANDLE _hEventHandle, void *_pBuf
 
 Retrieves the next data entry from the event queue.
 
-| Parameter | Description |
-| --- | --- |
-| `_hEventHandle` | Event handle to wait for. |
-| `_pBuffer` | Pointer to a caller-allocated buffer. |
-| `_piSize` | Size of the provided pBuffer in bytes. |
-| `_iTimeout` | Timeout for the wait in ms. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hEventHandle ` | ` KYVP_EVENT_HANDLE ` | IN. Event handle to wait for. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Size of the provided pBuffer in bytes. |
+| ` _iTimeout ` | ` uint64_t ` | IN. Timeout for the wait in ms. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -7055,15 +7055,15 @@ KY_RESULT KYVPLibTL_EventGetDataInfo_V1(KYVP_EVENT_HANDLE _hEventHandle, const v
 
 Queries information about an event data buffer.
 
-| Parameter | Description |
-| --- | --- |
-| `_hEventHandle` | Event handle to parse data from. |
-| `pInBuffer` | Pointer to a buffer containing event data. |
-| `_iInSize` | Size of the provided pInBuffer in bytes. |
-| `_iInfoCmd` | Information to be retrieved. |
-| `_piType` | Data type of the pOutBuffer content. |
-| `_pOutBuffer` | Pointer to a caller-allocated buffer. |
-| `_piOutSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hEventHandle ` | ` KYVP_EVENT_HANDLE ` | IN. Event handle to parse data from. |
+| ` pInBuffer ` | ` const void* ` | IN. Pointer to a buffer containing event data. |
+| ` _iInSize ` | ` size_t ` | IN. Size of the provided pInBuffer in bytes. |
+| ` _iInfoCmd ` | ` KYVP_EVENT_DATA_INFO_CMD ` | IN. Information to be retrieved. |
+| ` _piType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Data type of the pOutBuffer content. |
+| ` _pOutBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer. |
+| ` _piOutSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -7079,13 +7079,13 @@ KY_RESULT KYVPLibTL_EventGetInfo_V1(KYVP_EVENT_HANDLE _hEventHandle, KYVP_EVENT_
 
 Queries information about an event object.
 
-| Parameter | Description |
-| --- | --- |
-| `_hEventHandle` | Event handle to parse data from. |
-| `_iInfoCmd` | Information to be retrieved. |
-| `_piType` | Data type of the pBuffer content. |
-| `_pBuffer` | Pointer to a caller-allocated buffer. |
-| `piSize` | Number of bytes filled by the function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hEventHandle ` | ` KYVP_EVENT_HANDLE ` | IN. Event handle to parse data from. |
+| ` _iInfoCmd ` | ` KYVP_EVENT_INFO_CMD ` | IN. Information to be retrieved. |
+| ` _piType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Data type of the pBuffer content. |
+| ` _pBuffer ` | ` void* ` | OUT. Pointer to a caller-allocated buffer. |
+| ` piSize ` | ` size_t* ` | IN/OUT. Number of bytes filled by the function. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -7101,9 +7101,9 @@ KY_RESULT KYVPLibTL_EventFlush_V1(KYVP_EVENT_HANDLE _hEventHandle)
 
 Flushes the queue of an event object.
 
-| Parameter | Description |
-| --- | --- |
-| `_hEventHandle` | Event handle. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hEventHandle ` | ` KYVP_EVENT_HANDLE ` | IN. Event handle. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -7119,9 +7119,9 @@ KY_RESULT KYVPLibTL_EventKill_V1(KYVP_EVENT_HANDLE _hEventHandle)
 
 Terminates a waiting operation on a previously registered event object.
 
-| Parameter | Description |
-| --- | --- |
-| `_hEventHandle` | Event handle. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hEventHandle ` | ` KYVP_EVENT_HANDLE ` | IN. Event handle. |
 
 **Returns:** Status and error information. Use KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED() to test the result.
 
@@ -7137,9 +7137,9 @@ KY_BOOL KYVPLibTL_TLHandleIsInvalid(KYVP_TL_HANDLE _hHandle)
 
 Reports whether the handle is invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_TL_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is invalid; otherwise KY\_FALSE.
 
@@ -7153,9 +7153,9 @@ KY_BOOL KYVPLibTL_TLHandleIsNull(KYVP_TL_HANDLE _hHandle)
 
 Reports whether the handle is null.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_TL_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is null; otherwise KY\_FALSE.
 
@@ -7169,10 +7169,10 @@ KY_BOOL KYVPLibTL_TLHandlesIsEqual(KYVP_TL_HANDLE _hHandleFirst, KYVP_TL_HANDLE 
 
 Reports whether the handles are equal.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandleFirst` | First handle to compare. |
-| `_hHandleSecond` | Second handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandleFirst ` | ` KYVP_TL_HANDLE ` | IN. First handle to compare. |
+| ` _hHandleSecond ` | ` KYVP_TL_HANDLE ` | IN. Second handle to compare. |
 
 **Returns:** KY\_TRUE if the handles are equal; otherwise KY\_FALSE.
 
@@ -7186,9 +7186,9 @@ KY_BOOL KYVPLibTL_IFHandleIsInvalid(KYVP_PCI_INTERFACE_HANDLE _hHandle)
 
 Reports whether the handle is invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is invalid; otherwise KY\_FALSE.
 
@@ -7202,9 +7202,9 @@ KY_BOOL KYVPLibTL_IFHandleIsNull(KYVP_PCI_INTERFACE_HANDLE _hHandle)
 
 Reports whether the handle is null.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is null; otherwise KY\_FALSE.
 
@@ -7218,10 +7218,10 @@ KY_BOOL KYVPLibTL_IFHandlesAreEqual(KYVP_PCI_INTERFACE_HANDLE _hHandleFirst, KYV
 
 Reports whether the handles are equal.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandleFirst` | First handle to compare. |
-| `_hHandleSecond` | Second handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandleFirst ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. First handle to compare. |
+| ` _hHandleSecond ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. Second handle to compare. |
 
 **Returns:** KY\_TRUE if the handles are equal; otherwise KY\_FALSE.
 
@@ -7235,9 +7235,9 @@ KY_BOOL KYVPLibTL_DevHandleIsInvalid(KYVP_DEVICE_HANDLE _hHandle)
 
 Reports whether the handle is invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is invalid; otherwise KY\_FALSE.
 
@@ -7251,9 +7251,9 @@ KY_BOOL KYVPLibTL_DevHandleIsNull(KYVP_DEVICE_HANDLE _hHandle)
 
 Reports whether the handle is null.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is null; otherwise KY\_FALSE.
 
@@ -7267,10 +7267,10 @@ KY_BOOL KYVPLibTL_DevHandlesIsEqual(KYVP_DEVICE_HANDLE _hHandleFirst, KYVP_DEVIC
 
 Reports whether the handles are equal.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandleFirst` | First handle to compare. |
-| `_hHandleSecond` | Second handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandleFirst ` | ` KYVP_DEVICE_HANDLE ` | IN. First handle to compare. |
+| ` _hHandleSecond ` | ` KYVP_DEVICE_HANDLE ` | IN. Second handle to compare. |
 
 **Returns:** KY\_TRUE if the handles are equal; otherwise KY\_FALSE.
 
@@ -7284,9 +7284,9 @@ KY_BOOL KYVPLibTL_RemoteDeviceHandleIsInvalid(KYVP_REMOTE_DEVICE_HANDLE _hHandle
 
 Reports whether the handle is invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is invalid; otherwise KY\_FALSE.
 
@@ -7300,9 +7300,9 @@ KY_BOOL KYVPLibTL_RemoteDeviceHandleIsNull(KYVP_REMOTE_DEVICE_HANDLE _hHandle)
 
 Reports whether the handle is null.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is null; otherwise KY\_FALSE.
 
@@ -7316,10 +7316,10 @@ KY_BOOL KYVPLibTL_RemoteDeviceHandlesIsEqual(KYVP_REMOTE_DEVICE_HANDLE _hHandleF
 
 Reports whether the handles are equal.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandleFirst` | First handle to compare. |
-| `_hHandleSecond` | Second handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandleFirst ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. First handle to compare. |
+| ` _hHandleSecond ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Second handle to compare. |
 
 **Returns:** KY\_TRUE if the handles are equal; otherwise KY\_FALSE.
 
@@ -7333,9 +7333,9 @@ KY_BOOL KYVPLibTL_DSHandleIsInvalid(KYVP_STREAM_HANDLE _hHandle)
 
 Reports whether the handle is invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is invalid; otherwise KY\_FALSE.
 
@@ -7349,9 +7349,9 @@ KY_BOOL KYVPLibTL_DSHandleIsNull(KYVP_STREAM_HANDLE _hHandle)
 
 Reports whether the handle is null.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is null; otherwise KY\_FALSE.
 
@@ -7365,10 +7365,10 @@ KY_BOOL KYVPLibTL_DSHandlesIsEqual(KYVP_STREAM_HANDLE _hHandleFirst, KYVP_STREAM
 
 Reports whether the handles are equal.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandleFirst` | First handle to compare. |
-| `_hHandleSecond` | Second handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandleFirst ` | ` KYVP_STREAM_HANDLE ` | IN. First handle to compare. |
+| ` _hHandleSecond ` | ` KYVP_STREAM_HANDLE ` | IN. Second handle to compare. |
 
 **Returns:** KY\_TRUE if the handles are equal; otherwise KY\_FALSE.
 
@@ -7382,9 +7382,9 @@ KY_BOOL KYVPLibTL_BufferHandleIsInvalid(KYVP_BUFFER_HANDLE _hHandle)
 
 Reports whether the handle is invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_BUFFER_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is invalid; otherwise KY\_FALSE.
 
@@ -7398,9 +7398,9 @@ KY_BOOL KYVPLibTL_BufferHandleIsNull(KYVP_BUFFER_HANDLE _hHandle)
 
 Reports whether the handle is null.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_BUFFER_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is null; otherwise KY\_FALSE.
 
@@ -7414,10 +7414,10 @@ KY_BOOL KYVPLibTL_BufferHandlesIsEqual(KYVP_BUFFER_HANDLE _hHandleFirst, KYVP_BU
 
 Reports whether the handles are equal.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandleFirst` | First handle to compare. |
-| `_hHandleSecond` | Second handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandleFirst ` | ` KYVP_BUFFER_HANDLE ` | IN. First handle to compare. |
+| ` _hHandleSecond ` | ` KYVP_BUFFER_HANDLE ` | IN. Second handle to compare. |
 
 **Returns:** KY\_TRUE if the handles are equal; otherwise KY\_FALSE.
 
@@ -7431,9 +7431,9 @@ KY_BOOL KYVPLibTL_EventHandleIsInvalid(KYVP_EVENT_HANDLE _hHandle)
 
 Reports whether the handle is invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_EVENT_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is invalid; otherwise KY\_FALSE.
 
@@ -7447,9 +7447,9 @@ KY_BOOL KYVPLibTL_EventHandleIsNull(KYVP_EVENT_HANDLE _hHandle)
 
 Reports whether the handle is null.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | Handle to inspect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYVP_EVENT_HANDLE ` | IN. Handle to inspect. |
 
 **Returns:** KY\_TRUE if the handle is null; otherwise KY\_FALSE.
 
@@ -7463,10 +7463,10 @@ KY_BOOL KYVPLibTL_EventHandlesIsEqual(KYVP_EVENT_HANDLE _hHandleFirst, KYVP_EVEN
 
 Reports whether the handles are equal.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandleFirst` | First handle to compare. |
-| `_hHandleSecond` | Second handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandleFirst ` | ` KYVP_EVENT_HANDLE ` | IN. First handle to compare. |
+| ` _hHandleSecond ` | ` KYVP_EVENT_HANDLE ` | IN. Second handle to compare. |
 
 **Returns:** KY\_TRUE if the handles are equal; otherwise KY\_FALSE.
 
@@ -8894,10 +8894,10 @@ typedef KY_BOOL(* KYVP_UPDATE_CALLBACK) (const KYVP_UPDATE_STATUS *UpdateStatus,
 
 Receive firmware-update progress.
 
-| Parameter | Description |
-| --- | --- |
-| `UpdateStatus` | Non-NULL progress snapshot; valid for the callback duration. |
-| `context` | Application context supplied with the update request; may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` UpdateStatus ` | ` const KYVP_UPDATE_STATUS* ` | IN. Non-NULL progress snapshot; valid for the callback duration. |
+| ` context ` | ` void* ` | IN. Application context supplied with the update request; may be NULL. |
 
 **Returns:** Reserved Boolean result. Current firmware backends ignore this value; it does not cancel the update.
 
@@ -8913,10 +8913,10 @@ typedef void(* KYVP_DATA_STREAM_CALLBACK) (KYVP_BUFFER_HANDLE _phBufferHandle, v
 
 Receive a data-stream buffer notification.
 
-| Parameter | Description |
-| --- | --- |
-| `_phBufferHandle` | Handle of the buffer associated with the notification. |
-| `_pContext` | Application context supplied at registration; may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _phBufferHandle ` | ` KYVP_BUFFER_HANDLE ` | IN. Handle of the buffer associated with the notification. |
+| ` _pContext ` | ` void* ` | IN. Application context supplied at registration; may be NULL. |
 
 **See:** KYVPExtension\_DataStream\_Callback\_Register
 
@@ -8932,10 +8932,10 @@ Receive auxiliary data generated by a PCI interface.
 
 Interpret the data according to its context and message identifier. Copy any payload needed after the callback returns.
 
-| Parameter | Description |
-| --- | --- |
-| `_pData` | Auxiliary-data record; valid for the callback duration. |
-| `_pContext` | Application context supplied at registration; may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pData ` | ` const KYVP_AUX_DATA* ` | IN. Auxiliary-data record; valid for the callback duration. |
+| ` _pContext ` | ` void* ` | IN. Application context supplied at registration; may be NULL. |
 
 **See:** KYVPExtension\_PCIInterface\_AuxDataCallback\_Register
 
@@ -8949,13 +8949,13 @@ typedef void(* KYVP_SERIAL_CALLBACK) (uint32_t _uChannel, uint16_t _uEventId, co
 
 Receive a serial-port event and its payload.
 
-| Parameter | Description |
-| --- | --- |
-| `_uChannel` | Serial channel reporting the event. |
-| `_uEventId` | Transport-specific serial event identifier. |
-| `_pData` | Event payload; interpret according to the event identifier. Valid during the callback. |
-| `_uSize` | Payload size in bytes. |
-| `_pContext` | Application context supplied at registration; may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _uChannel ` | ` uint32_t ` | IN. Serial channel reporting the event. |
+| ` _uEventId ` | ` uint16_t ` | IN. Transport-specific serial event identifier. |
+| ` _pData ` | ` const void* ` | IN. Event payload; interpret according to the event identifier. Valid during the callback. |
+| ` _uSize ` | ` uint32_t ` | IN. Payload size in bytes. |
+| ` _pContext ` | ` void* ` | IN. Application context supplied at registration; may be NULL. |
 
 **See:** KYVPExtension\_Serial\_Callback\_Register
 
@@ -8969,10 +8969,10 @@ typedef void(* KYVP_PCI_INTERFACE_EVENT_CALLBACK) (KYVP_PCIINTERFACE_GENERIC_EVE
 
 Receive a PCI interface event.
 
-| Parameter | Description |
-| --- | --- |
-| `_pGenericEventData` | Event record; use its event identifier to interpret the payload. Valid during the callback. |
-| `_pUserContext` | Application context supplied at registration; may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pGenericEventData ` | ` KYVP_PCIINTERFACE_GENERIC_EVENT* ` | IN. Event record; use its event identifier to interpret the payload. Valid during the callback. |
+| ` _pUserContext ` | ` void* ` | IN. Application context supplied at registration; may be NULL. |
 
 **See:** KYVPExtension\_PCIInterface\_EventCallBackRegister
 
@@ -8986,10 +8986,10 @@ typedef void( * KYVP_DEVICE_EVENT_CALLBACK) (KYVP_DEVICE_GENERIC_EVENT *_pGeneri
 
 Receive a device event.
 
-| Parameter | Description |
-| --- | --- |
-| `_pGenericEventData` | Event record; use its event identifier to interpret the payload. Valid during the callback. |
-| `_pUserContext` | Application context supplied at registration; may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pGenericEventData ` | ` KYVP_DEVICE_GENERIC_EVENT* ` | IN. Event record; use its event identifier to interpret the payload. Valid during the callback. |
+| ` _pUserContext ` | ` void* ` | IN. Application context supplied at registration; may be NULL. |
 
 **See:** KYVPExtension\_Device\_EventCallBackRegister
 
@@ -9026,9 +9026,9 @@ Update PCI interface firmware from a file.
 
 The optional callback reports write and validation progress. Its return value is ignored by the current firmware backends.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_FirmwareUpdate\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_FirmwareUpdate_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_FirmwareUpdate\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9042,9 +9042,9 @@ KY_RESULT KYVPExtension_PCIInterface_CheckUpdateFile(KYVPExtension_PCIInterface_
 
 Check a firmware update file and return file and installed-flash metadata.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_CheckUpdateFile\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_CheckUpdateFile_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_CheckUpdateFile\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9058,9 +9058,9 @@ KY_RESULT KYVPExtension_PCIInterface_EventCallBackRegister(KYVPExtension_PCIInte
 
 Register a callback for PCI interface events.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_EventCallBackRegister\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_EventCallBackRegister_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_EventCallBackRegister\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9076,9 +9076,9 @@ KY_RESULT KYVPExtension_PCIInterface_EventCallBackUnregister(KYVPExtension_PCIIn
 
 Remove a PCI interface event callback registration.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_EventCallBackUnregister\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_EventCallBackUnregister_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_EventCallBackUnregister\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9096,9 +9096,9 @@ Read PCI interface registers through direct hardware access.
 
 BAR 0 is the normal access target. Access to other BARs is denied unless enabled by the SDK configuration.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_DirectHWReadReg\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_DirectHWReadReg_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_DirectHWReadReg\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9116,9 +9116,9 @@ Write PCI interface registers through direct hardware access.
 
 BAR 0 is the normal access target. Access to other BARs is denied unless enabled by the SDK configuration.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_DirectHWWriteReg\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_DirectHWWriteReg_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_DirectHWWriteReg\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9134,9 +9134,9 @@ KY_RESULT KYVPExtension_PCIInterface_LockLink(KYVPExtension_PCIInterface_LockLin
 
 Lock a PCI interface link for exclusive access.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_LockLink\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_LockLink_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_LockLink\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9152,9 +9152,9 @@ KY_RESULT KYVPExtension_PCIInterface_UnlockLink(KYVPExtension_PCIInterface_Unloc
 
 Release a PCI interface link lock.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_UnlockLink\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_UnlockLink_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_UnlockLink\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9170,9 +9170,9 @@ KY_RESULT KYVPExtension_PCIInterface_ReadLink(KYVPExtension_PCIInterface_ReadLin
 
 Read registers through the selected PCI interface link.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_ReadLink\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_ReadLink_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_ReadLink\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9188,9 +9188,9 @@ KY_RESULT KYVPExtension_PCIInterface_WriteLink(KYVPExtension_PCIInterface_WriteL
 
 Write registers through the selected PCI interface link.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_WriteLink\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_WriteLink_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_WriteLink\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9208,9 +9208,9 @@ Send an event through the selected PCI interface link.
 
 Support depends on the link transport; an unsupported transport returns an error.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_SendLinkEvent\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_SendLinkEvent_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_SendLinkEvent\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9226,9 +9226,9 @@ Query connection or lock status for a PCI interface link.
 
 Connection status is returned as ` int32_t `; lock status is returned as KY\_BOOL. Set the buffer to NULL to query the required size.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_LinkGetStatus\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_PCIInterface_LinkGetStatus_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_PCIInterface\_LinkGetStatus\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9244,9 +9244,9 @@ KY_RESULT KYVPExtension_PCIInterface_AuxDataCallback_Register(KYVPExtension_AuxD
 
 Register a callback for auxiliary data from a PCI interface.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_AuxDataCallback\_Register\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_AuxDataCallback_Register_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_AuxDataCallback\_Register\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9262,9 +9262,9 @@ KY_RESULT KYVPExtension_PCIInterface_AuxDataCallback_Unregister(KYVPExtension_Au
 
 Remove a PCI interface auxiliary-data callback registration.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_AuxDataCallback\_Unregister\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_AuxDataCallback_Unregister_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_AuxDataCallback\_Unregister\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9280,9 +9280,9 @@ KY_RESULT KYVPExtension_Device_EventCallBackRegister(KYVPExtension_Device_EventC
 
 Register a callback for device events.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Device\_EventCallBackRegister\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_Device_EventCallBackRegister_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Device\_EventCallBackRegister\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9298,9 +9298,9 @@ KY_RESULT KYVPExtension_Device_EventCallBackUnregister(KYVPExtension_Device_Even
 
 Remove a device event callback registration.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Device\_EventCallBackUnregister\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_Device_EventCallBackUnregister_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Device\_EventCallBackUnregister\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9316,9 +9316,9 @@ KY_RESULT KYVPExtension_RemoteDevice_DirectHWReadReg(KYVPExtension_RemoteDevice_
 
 Read remote-device registers through direct hardware access.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_RemoteDevice\_DirectHWReadReg\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_RemoteDevice_DirectHWReadReg_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_RemoteDevice\_DirectHWReadReg\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9334,9 +9334,9 @@ KY_RESULT KYVPExtension_RemoteDevice_DirectHWWriteReg(KYVPExtension_RemoteDevice
 
 Write remote-device registers through direct hardware access.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_RemoteDevice\_DirectHWWriteReg\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_RemoteDevice_DirectHWWriteReg_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_RemoteDevice\_DirectHWWriteReg\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9352,9 +9352,9 @@ KY_RESULT KYVPExtension_RemoteDevice_SetImageDetails(KYVPExtension_RemoteDevice_
 
 Set the remote-device image geometry and pixel format used by the SDK.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_RemoteDevice\_SetImageDetails\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_RemoteDevice_SetImageDetails_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_RemoteDevice\_SetImageDetails\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9372,9 +9372,9 @@ Retrieve the parameter collection associated with a remote device.
 
 The collection belongs to the remote device. Use the parameter-handler API to access it; do not delete it as an application-created collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_RemoteDevice\_GetParamsCollectionHandle\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_RemoteDevice_GetParamsCollectionHandle_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_RemoteDevice\_GetParamsCollectionHandle\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9392,9 +9392,9 @@ Open a device data stream with the selected buffer-management mode.
 
 The stream identifier must identify a device stream known to the initialized SDK. Close the returned handle with KYVPExtension\_DataStream\_Close().
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DataStream\_Create\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_DataStream_Create_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DataStream\_Create\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9412,9 +9412,9 @@ Close and release a data stream.
 
 The stream handle becomes invalid on success.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DataStream\_Close\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_DataStream_Close_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DataStream\_Close\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9432,9 +9432,9 @@ Announce a buffer backed by multiple application-allocated memory chunks.
 
 The chunk memory belongs to the application and must remain valid while the announced buffer is in use. Revoke the buffer before releasing its memory.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DSAnnounceBufferChunks\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_DSAnnounceBufferChunks_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DSAnnounceBufferChunks\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9450,9 +9450,9 @@ KY_RESULT KYVPExtension_DataStream_Callback_Register(KYVPExtension_DataStream_Ca
 
 Register a callback for data-stream buffer notifications.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DataStream\_Callback\_Register\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_DataStream_Callback_Register_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DataStream\_Callback\_Register\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9468,9 +9468,9 @@ KY_RESULT KYVPExtension_DataStream_Callback_Unregister(KYVPExtension_DataStream_
 
 Remove a data-stream callback registration.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DataStream\_Callback\_Unregister\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_DataStream_Callback_Unregister_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DataStream\_Callback\_Unregister\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9486,9 +9486,9 @@ KY_RESULT KYVPExtension_Serial_Callback_Register(KYVPExtension_Serial_Callback_R
 
 Register a serial-event callback for a PCI interface link.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Serial\_Callback\_Register\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_Serial_Callback_Register_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Serial\_Callback\_Register\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9506,9 +9506,9 @@ Request removal of a serial-event callback registration.
 
 **Warning:** The current implementation returns success without removing the registered callback. Do not use this call as confirmation that callback delivery has stopped.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Serial\_Callback\_Unregister\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_Serial_Callback_Unregister_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Serial\_Callback\_Unregister\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9526,9 +9526,9 @@ Start the serial-port IPC server in the calling process.
 
 Starting an already running server succeeds without creating another instance.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Serial\_IPCServer\_Start\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_Serial_IPCServer_Start_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Serial\_IPCServer\_Start\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9546,9 +9546,9 @@ Stop the serial-port IPC server in the calling process.
 
 Stopping an already stopped server succeeds.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Serial\_IPCServer\_Stop\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_Serial_IPCServer_Stop_Args* ` | IN. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_Serial\_IPCServer\_Stop\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9566,9 +9566,9 @@ Detect devices using an application-supplied link topology.
 
 Each device definition supplies its expected speed and a device-link-to-host-link mapping. Detection writes the found flag and device ID into each definition. Version 1 verifies link IDs and retains open devices. Version 2 adds optional link-ID verification suppression. Version 3 adds control over retaining open devices. With ` bRetainOpenDevices ` set to KY\_FALSE, this process closes its devices and clears its device lists before fresh detection; existing handles and streams must be discarded. Devices opened by other processes are preserved in both modes.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DetectDevicesManually\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYVPExtension_DetectDevicesManually_Args* ` | IN/OUT. Non-NULL argument block; initialize its version and fields as described in KYVPExtension\_DetectDevicesManually\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9586,13 +9586,13 @@ Read PCI interface registers through direct hardware access.
 
 BAR 0 is the normal access target. Access to other BARs is denied unless enabled by the SDK configuration. Convenience entry point for KYVPExtension\_PCIInterface\_DirectHWReadReg() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iBar` | PCI Base Address Register index. Normally 0. |
-| `_iAddress` | Starting register address in the selected address space. |
-| `_pBuffer` | Destination buffer for register data. Non-NULL for a nonzero transfer. |
-| `_piSize` | Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iBar ` | ` uint64_t ` | IN. PCI Base Address Register index. Normally 0. |
+| ` _iAddress ` | ` uint64_t ` | IN. Starting register address in the selected address space. |
+| ` _pBuffer ` | ` void* ` | OUT. Destination buffer for register data. Non-NULL for a nonzero transfer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9610,13 +9610,13 @@ Write PCI interface registers through direct hardware access.
 
 BAR 0 is the normal access target. Access to other BARs is denied unless enabled by the SDK configuration. Convenience entry point for KYVPExtension\_PCIInterface\_DirectHWWriteReg() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iBar` | PCI Base Address Register index. Normally 0. |
-| `_iAddress` | Starting register address in the selected address space. |
-| `_pBuffer` | Source buffer containing bytes to write or send. Non-NULL for a nonzero transfer. |
-| `_piSize` | Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iBar ` | ` uint64_t ` | IN. PCI Base Address Register index. Normally 0. |
+| ` _iAddress ` | ` uint64_t ` | IN. Starting register address in the selected address space. |
+| ` _pBuffer ` | ` const void* ` | IN. Source buffer containing bytes to write or send. Non-NULL for a nonzero transfer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9634,10 +9634,10 @@ Lock a PCI interface link for exclusive access.
 
 Convenience entry point for KYVPExtension\_PCIInterface\_LockLink() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iLink` | Zero-based host link index on the PCI interface. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iLink ` | ` uint64_t ` | IN. Zero-based host link index on the PCI interface. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9655,10 +9655,10 @@ Release a PCI interface link lock.
 
 Convenience entry point for KYVPExtension\_PCIInterface\_UnlockLink() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iLink` | Zero-based host link index on the PCI interface. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iLink ` | ` uint64_t ` | IN. Zero-based host link index on the PCI interface. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9676,13 +9676,13 @@ Read registers through the selected PCI interface link.
 
 Convenience entry point for KYVPExtension\_PCIInterface\_ReadLink() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iLink` | Zero-based host link index on the PCI interface. |
-| `_iAddress` | Starting register address in the selected address space. |
-| `_pBuffer` | Destination buffer for register data. Non-NULL for a nonzero transfer. |
-| `_piSize` | Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iLink ` | ` uint64_t ` | IN. Zero-based host link index on the PCI interface. |
+| ` _iAddress ` | ` uint64_t ` | IN. Starting register address in the selected address space. |
+| ` _pBuffer ` | ` void* ` | OUT. Destination buffer for register data. Non-NULL for a nonzero transfer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9700,13 +9700,13 @@ Write registers through the selected PCI interface link.
 
 Convenience entry point for KYVPExtension\_PCIInterface\_WriteLink() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iLink` | Zero-based host link index on the PCI interface. |
-| `_iAddress` | Starting register address in the selected address space. |
-| `_pBuffer` | Source buffer containing bytes to write or send. Non-NULL for a nonzero transfer. |
-| `_piSize` | Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iLink ` | ` uint64_t ` | IN. Zero-based host link index on the PCI interface. |
+| ` _iAddress ` | ` uint64_t ` | IN. Starting register address in the selected address space. |
+| ` _pBuffer ` | ` const void* ` | IN. Source buffer containing bytes to write or send. Non-NULL for a nonzero transfer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9724,14 +9724,14 @@ Query connection or lock status for a PCI interface link.
 
 Connection status is returned as ` int32_t `; lock status is returned as KY\_BOOL. Set the buffer to NULL to query the required size. Convenience entry point for KYVPExtension\_PCIInterface\_GetLinkStatus() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iLink` | Zero-based host link index on the PCI interface. |
-| `_iInfoCmd` | Link-status property to query. |
-| `_piType` | Receives the data type of the returned status value. Non-NULL, including size-only queries. |
-| `_pBuffer` | Receives the selected link-status value. NULL queries the required size without copying data. |
-| `_piSize` | Buffer capacity on input; required value size on output, in bytes. Non-NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iLink ` | ` uint64_t ` | IN. Zero-based host link index on the PCI interface. |
+| ` _iInfoCmd ` | ` KYVP_LINK_STATUS_CMD ` | IN. Link-status property to query. |
+| ` _piType ` | ` KYVP_INFO_DATATYPE* ` | OUT. Receives the data type of the returned status value. Non-NULL, including size-only queries. |
+| ` _pBuffer ` | ` void* ` | OUT. Receives the selected link-status value. NULL queries the required size without copying data. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Buffer capacity on input; required value size on output, in bytes. Non-NULL. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9749,11 +9749,11 @@ Register a callback for auxiliary data from a PCI interface.
 
 Convenience entry point for KYVPExtension\_PCIInterface\_AuxDataCallback\_Register() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_pCallbackFunction` | Callback function to invoke. Non-NULL. |
-| `_pUserContext` | Application context passed back to the callback. Optional, may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _pCallbackFunction ` | ` KYVP_AUX_DATA_CALLBACK ` | IN. Callback function to invoke. Non-NULL. |
+| ` _pUserContext ` | ` void* ` | IN. Application context passed back to the callback. Optional, may be NULL. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9771,10 +9771,10 @@ Remove a PCI interface auxiliary-data callback registration.
 
 Convenience entry point for KYVPExtension\_PCIInterface\_AuxDataCallback\_Unregister() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_pCallbackFunction` | Callback function to remove. Non-NULL; pass the registered function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _pCallbackFunction ` | ` KYVP_AUX_DATA_CALLBACK ` | IN. Callback function to remove. Non-NULL; pass the registered function. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9792,11 +9792,11 @@ Register a callback for PCI interface events.
 
 Convenience entry point for KYVPExtension\_PCIInterface\_EventCallBackRegister() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_pUserFunc` | Callback function to invoke. Non-NULL. |
-| `_pUserContext` | Application context passed back to the callback. Optional, may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _pUserFunc ` | ` KYVP_PCI_INTERFACE_EVENT_CALLBACK ` | IN. Callback function to invoke. Non-NULL. |
+| ` _pUserContext ` | ` void* ` | IN. Application context passed back to the callback. Optional, may be NULL. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9814,10 +9814,10 @@ Remove a PCI interface event callback registration.
 
 Convenience entry point for KYVPExtension\_PCIInterface\_EventCallBackUnregister() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_pUserFunc` | Callback function to remove. Non-NULL; pass the registered function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _pUserFunc ` | ` KYVP_PCI_INTERFACE_EVENT_CALLBACK ` | IN. Callback function to remove. Non-NULL; pass the registered function. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9835,11 +9835,11 @@ Register a callback for device events.
 
 Convenience entry point for KYVPExtension\_Device\_EventCallBackRegister() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device to receive event notifications from. Valid device handle. |
-| `_pUserFunc` | Callback function to invoke. Non-NULL. |
-| `_pUserContext` | Application context passed back to the callback. Optional, may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device to receive event notifications from. Valid device handle. |
+| ` _pUserFunc ` | ` KYVP_DEVICE_EVENT_CALLBACK ` | IN. Callback function to invoke. Non-NULL. |
+| ` _pUserContext ` | ` void* ` | IN. Application context passed back to the callback. Optional, may be NULL. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9857,10 +9857,10 @@ Remove a device event callback registration.
 
 Convenience entry point for KYVPExtension\_Device\_EventCallBackUnregister() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDevHandle` | Device to receive event notifications from. Valid device handle. |
-| `_pUserFunc` | Callback function to remove. Non-NULL; pass the registered function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDevHandle ` | ` KYVP_DEVICE_HANDLE ` | IN. Device to receive event notifications from. Valid device handle. |
+| ` _pUserFunc ` | ` KYVP_DEVICE_EVENT_CALLBACK ` | IN. Callback function to remove. Non-NULL; pass the registered function. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9878,12 +9878,12 @@ Read remote-device registers through direct hardware access.
 
 Convenience entry point for KYVPExtension\_RemoteDevice\_DirectHWReadReg() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hRemoteDeviceHandle` | Remote device to operate on. Valid remote-device handle. |
-| `_iAddress` | Starting register address in the selected address space. |
-| `_pBuffer` | Destination buffer for register data. Non-NULL for a nonzero transfer. |
-| `_piSize` | Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hRemoteDeviceHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Remote device to operate on. Valid remote-device handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Starting register address in the selected address space. |
+| ` _pBuffer ` | ` void* ` | OUT. Destination buffer for register data. Non-NULL for a nonzero transfer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9901,12 +9901,12 @@ Write remote-device registers through direct hardware access.
 
 Convenience entry point for KYVPExtension\_RemoteDevice\_DirectHWWriteReg() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hRemoteDeviceHandle` | Remote device to operate on. Valid remote-device handle. |
-| `_iAddress` | Starting register address in the selected address space. |
-| `_pBuffer` | Source buffer containing bytes to write or send. Non-NULL for a nonzero transfer. |
-| `_piSize` | Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hRemoteDeviceHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Remote device to operate on. Valid remote-device handle. |
+| ` _iAddress ` | ` uint64_t ` | IN. Starting register address in the selected address space. |
+| ` _pBuffer ` | ` const void* ` | IN. Source buffer containing bytes to write or send. Non-NULL for a nonzero transfer. |
+| ` _piSize ` | ` size_t* ` | IN/OUT. Requested transfer size in bytes; may be updated by the transport. Non-NULL; buffer must cover the requested size. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9924,10 +9924,10 @@ Set the remote-device image geometry and pixel format used by the SDK.
 
 Convenience entry point for KYVPExtension\_RemoteDevice\_SetImageDetails() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hRemoteDeviceHandle` | Remote device to operate on. Valid remote-device handle. |
-| `_imageDetails` | Image dimensions and pixel format to apply. Initialize the nested structure version and fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hRemoteDeviceHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Remote device to operate on. Valid remote-device handle. |
+| ` _imageDetails ` | ` KYVP_DEVICE_IMAGE_DETAILS ` | IN. Image dimensions and pixel format to apply. Initialize the nested structure version and fields. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9945,10 +9945,10 @@ Retrieve the parameter collection associated with a remote device.
 
 The collection belongs to the remote device. Use the parameter-handler API to access it; do not delete it as an application-created collection. Convenience entry point for KYVPExtension\_RemoteDevice\_GetParamsCollectionHandle() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hRemoteDeviceHandle` | Remote device to operate on. Valid remote-device handle. |
-| `_phParamsCollectionHandle` | Receives the remote-device parameter collection handle. Non-NULL; owned by the remote device. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hRemoteDeviceHandle ` | ` KYVP_REMOTE_DEVICE_HANDLE ` | IN. Remote device to operate on. Valid remote-device handle. |
+| ` _phParamsCollectionHandle ` | ` KYVP_COLLECTION_HANDLE* ` | OUT. Receives the remote-device parameter collection handle. Non-NULL; owned by the remote device. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9966,11 +9966,11 @@ Open a device data stream with the selected buffer-management mode.
 
 The stream identifier must identify a device stream known to the initialized SDK. Close the returned handle with KYVPExtension\_DataStream\_Close(). Convenience entry point for KYVPExtension\_DataStream\_Create() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_pszDevDataStreamID` | Identifier of the device data stream to open. Non-NULL, null-terminated string. |
-| `_eStreamBufferType` | Buffer-management mode for the stream. |
-| `_phDSHandle` | Receives the newly opened data-stream handle. Non-NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pszDevDataStreamID ` | ` const char* ` | IN. Identifier of the device data stream to open. Non-NULL, null-terminated string. |
+| ` _eStreamBufferType ` | ` KYVP_STREAM_BUFFERS_TYPE ` | IN. Buffer-management mode for the stream. |
+| ` _phDSHandle ` | ` KYVP_STREAM_HANDLE* ` | OUT. Receives the newly opened data-stream handle. Non-NULL. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -9988,9 +9988,9 @@ Close and release a data stream.
 
 The stream handle becomes invalid on success. Convenience entry point for KYVPExtension\_DataStream\_Close() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data stream to operate on. Valid stream handle. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data stream to operate on. Valid stream handle. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10008,13 +10008,13 @@ Announce a buffer backed by multiple application-allocated memory chunks.
 
 The chunk memory belongs to the application and must remain valid while the announced buffer is in use. Revoke the buffer before releasing its memory. Convenience entry point for KYVPExtension\_DSAnnounceBufferChunks() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data stream to operate on. Valid stream handle. |
-| `_pChunks` | Array describing the memory chunks that make up one buffer. Non-NULL, with ` _iNumChunks ` entries. |
-| `_iNumChunks` | Number of entries in ` _pChunks `. Greater than zero. |
-| `_pPrivate` | Application data associated with the announced buffer. Optional, may be NULL. |
-| `_phBuffer` | Receives the announced buffer handle. Optional, may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data stream to operate on. Valid stream handle. |
+| ` _pChunks ` | ` const KYVPExtension_DataStreamBufferChunk* ` | IN. Array describing the memory chunks that make up one buffer. Non-NULL, with ` _iNumChunks ` entries. |
+| ` _iNumChunks ` | ` size_t ` | IN. Number of entries in ` _pChunks `. Greater than zero. |
+| ` _pPrivate ` | ` void* ` | IN. Application data associated with the announced buffer. Optional, may be NULL. |
+| ` _phBuffer ` | ` KYVP_BUFFER_HANDLE* ` | OUT. Receives the announced buffer handle. Optional, may be NULL. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10032,11 +10032,11 @@ Register a callback for data-stream buffer notifications.
 
 Convenience entry point for KYVPExtension\_DataStream\_Callback\_Register() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data stream to operate on. Valid stream handle. |
-| `_pCallbackFunction` | Callback function to invoke. Non-NULL. |
-| `_pContext` | Application context passed back to the callback. Optional, may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data stream to operate on. Valid stream handle. |
+| ` _pCallbackFunction ` | ` KYVP_DATA_STREAM_CALLBACK ` | IN. Callback function to invoke. Non-NULL. |
+| ` _pContext ` | ` void* ` | IN. Application context passed back to the callback. Optional, may be NULL. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10054,10 +10054,10 @@ Remove a data-stream callback registration.
 
 Convenience entry point for KYVPExtension\_DataStream\_Callback\_Unregister() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data stream to operate on. Valid stream handle. |
-| `_pCallbackFunction` | Callback function to remove. Non-NULL; pass the registered function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data stream to operate on. Valid stream handle. |
+| ` _pCallbackFunction ` | ` KYVP_DATA_STREAM_CALLBACK ` | IN. Callback function to remove. Non-NULL; pass the registered function. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10075,12 +10075,12 @@ Register a serial-event callback for a PCI interface link.
 
 Convenience entry point for KYVPExtension\_Serial\_Callback\_Register() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iLink` | Zero-based host link index on the PCI interface. |
-| `_pCallbackFunction` | Callback function to invoke. Non-NULL. |
-| `_pContext` | Application context passed back to the callback. Optional, may be NULL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iLink ` | ` uint64_t ` | IN. Zero-based host link index on the PCI interface. |
+| ` _pCallbackFunction ` | ` KYVP_SERIAL_CALLBACK ` | IN. Callback function to invoke. Non-NULL. |
+| ` _pContext ` | ` void* ` | IN. Application context passed back to the callback. Optional, may be NULL. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10098,11 +10098,11 @@ Request removal of a serial-event callback registration.
 
 **Warning:** The current implementation returns success without removing the registered callback. Do not use this call as confirmation that callback delivery has stopped. Convenience entry point for KYVPExtension\_Serial\_Callback\_Unregister() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_iLink` | Zero-based host link index on the PCI interface. |
-| `_pCallbackFunction` | Callback function to remove. Non-NULL; pass the registered function. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _iLink ` | ` uint64_t ` | IN. Zero-based host link index on the PCI interface. |
+| ` _pCallbackFunction ` | ` KYVP_SERIAL_CALLBACK ` | IN. Callback function to remove. Non-NULL; pass the registered function. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10152,13 +10152,13 @@ Detect devices using an application-supplied link topology.
 
 Each device definition supplies its expected speed and a device-link-to-host-link mapping. Detection writes the found flag and device ID into each definition. Convenience entry point for KYVPExtension\_DetectDevicesManually() with explicit parameters. This entry point verifies link IDs and retains open devices.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_bNoDevicesAccess` | Skip detection operations that require remote-device access. KY\_TRUE enables this mode; SDK configuration can override it. |
-| `_pbChanged` | Receives whether the device list changed. Optional, may be NULL. |
-| `_pDeviceDefinitionArray` | Device topologies to detect, with detection results written back. Non-NULL array. |
-| `_uDeviceDefinitionArrayCount` | Number of entries in ` _pDeviceDefinitionArray `. Greater than zero. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _bNoDevicesAccess ` | ` KY_BOOL ` | IN. Skip detection operations that require remote-device access. KY\_TRUE enables this mode; SDK configuration can override it. |
+| ` _pbChanged ` | ` KY_BOOL* ` | OUT. Receives whether the device list changed. Optional, may be NULL. |
+| ` _pDeviceDefinitionArray ` | ` DeviceDefinition* ` | IN/OUT. Device topologies to detect, with detection results written back. Non-NULL array. |
+| ` _uDeviceDefinitionArrayCount ` | ` size_t ` | IN. Number of entries in ` _pDeviceDefinitionArray `. Greater than zero. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10176,14 +10176,14 @@ Detect devices using an application-supplied link topology.
 
 Each device definition supplies its expected speed and a device-link-to-host-link mapping. Detection writes the found flag and device ID into each definition. Convenience entry point for KYVPExtension\_DetectDevicesManually() with explicit parameters. This entry point retains open devices.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_bNoDevicesAccess` | Skip detection operations that require remote-device access. KY\_TRUE enables this mode; SDK configuration can override it. |
-| `_bSuppressLinkIDVerification` | Allow detection without verifying the configured device link-ID order. Since version 2. |
-| `_pbChanged` | Receives whether the device list changed. Optional, may be NULL. |
-| `_pDeviceDefinitionArray` | Device topologies to detect, with detection results written back. Non-NULL array. |
-| `_uDeviceDefinitionArrayCount` | Number of entries in ` _pDeviceDefinitionArray `. Greater than zero. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _bNoDevicesAccess ` | ` KY_BOOL ` | IN. Skip detection operations that require remote-device access. KY\_TRUE enables this mode; SDK configuration can override it. |
+| ` _bSuppressLinkIDVerification ` | ` KY_BOOL ` | IN. Allow detection without verifying the configured device link-ID order. Since version 2. |
+| ` _pbChanged ` | ` KY_BOOL* ` | OUT. Receives whether the device list changed. Optional, may be NULL. |
+| ` _pDeviceDefinitionArray ` | ` DeviceDefinition* ` | IN/OUT. Device topologies to detect, with detection results written back. Non-NULL array. |
+| ` _uDeviceDefinitionArrayCount ` | ` size_t ` | IN. Number of entries in ` _pDeviceDefinitionArray `. Greater than zero. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10201,15 +10201,15 @@ Detect devices using an application-supplied link topology.
 
 Each device definition supplies its expected speed and a device-link-to-host-link mapping. Detection writes the found flag and device ID into each definition. With ` _bRetainOpenDevices ` set to KY\_FALSE, this process closes its devices and clears its device lists before fresh detection; existing handles and streams must be discarded. Devices opened by other processes are preserved in both modes. Convenience entry point for KYVPExtension\_DetectDevicesManually() with explicit parameters.
 
-| Parameter | Description |
-| --- | --- |
-| `_hIFHandle` | PCI interface to operate on. Valid interface handle. |
-| `_bNoDevicesAccess` | Skip detection operations that require remote-device access. KY\_TRUE enables this mode; SDK configuration can override it. |
-| `_bSuppressLinkIDVerification` | Allow detection without verifying the configured device link-ID order. Since version 2. |
-| `_pbChanged` | Receives whether the device list changed. Optional, may be NULL. |
-| `_pDeviceDefinitionArray` | Device topologies to detect, with detection results written back. Non-NULL array. |
-| `_uDeviceDefinitionArrayCount` | Number of entries in ` _pDeviceDefinitionArray `. Greater than zero. |
-| `_bRetainOpenDevices` | Preserve open devices; KY\_FALSE closes this process's devices before fresh detection. Since version 3. Other processes' devices are preserved. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hIFHandle ` | ` KYVP_PCI_INTERFACE_HANDLE ` | IN. PCI interface to operate on. Valid interface handle. |
+| ` _bNoDevicesAccess ` | ` KY_BOOL ` | IN. Skip detection operations that require remote-device access. KY\_TRUE enables this mode; SDK configuration can override it. |
+| ` _bSuppressLinkIDVerification ` | ` KY_BOOL ` | IN. Allow detection without verifying the configured device link-ID order. Since version 2. |
+| ` _pbChanged ` | ` KY_BOOL* ` | OUT. Receives whether the device list changed. Optional, may be NULL. |
+| ` _pDeviceDefinitionArray ` | ` DeviceDefinition* ` | IN/OUT. Device topologies to detect, with detection results written back. Non-NULL array. |
+| ` _uDeviceDefinitionArrayCount ` | ` size_t ` | IN. Number of entries in ` _pDeviceDefinitionArray `. Greater than zero. |
+| ` _bRetainOpenDevices ` | ` KY_BOOL ` | IN. Preserve open devices; KY\_FALSE closes this process's devices before fresh detection. Since version 3. Other processes' devices are preserved. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10227,10 +10227,10 @@ Log diagnostic details for a KYVPLibTL stream buffer.
 
 **Warning:** Experimental API. Its interface and behavior may change without deprecation.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDSHandle` | Data stream to operate on. Valid stream handle. |
-| `_hBuffer` | Buffer handle belonging to the selected stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDSHandle ` | ` KYVP_STREAM_HANDLE ` | IN. Data stream to operate on. Valid stream handle. |
+| ` _hBuffer ` | ` KYVP_BUFFER_HANDLE ` | IN. Buffer handle belonging to the selected stream. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -10246,10 +10246,10 @@ Log diagnostic details for a buffer from the KAYA GenTL producer.
 
 **Warning:** Experimental API. Its interface and behavior may change without deprecation.
 
-| Parameter | Description |
-| --- | --- |
-| `_hDataStream` | Data-stream handle from the KAYA GenTL producer. |
-| `_hBuffer` | Buffer handle belonging to the selected stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hDataStream ` | ` GENTL_DS_HANDLE ` | IN. Data-stream handle from the KAYA GenTL producer. |
+| ` _hBuffer ` | ` GENTL_BUFFER_HANDLE ` | IN. Buffer handle belonging to the selected stream. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -11084,14 +11084,14 @@ Forward a formatted application message to the SDK logger.
 
 **Warning:** Experimental backend entry point. Use KYVPLOG() or its severity-specific macros; the function signature may change without notice. The logger name is placed under the ` KYVPExt ` logging namespace. The function prefixes the message with the source line. A success result does not guarantee that logger filters emitted the message.
 
-| Parameter | Description |
-| --- | --- |
-| `_log_priority` | One of the documented KYVPLOG\_PRIORITY values. |
-| `_pszLoggerName` | Non-NULL, null-terminated logger name, normally the source basename. |
-| `_pszFuncName` | Non-NULL, null-terminated calling-function name. |
-| `_line` | Calling source line number. |
-| `_pszFmt` | Non-NULL, null-terminated printf-style format string. |
-| `...` | Formatting arguments matching the format string. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _log_priority ` | ` KYVPLOG_PRIORITY ` | IN. One of the documented KYVPLOG\_PRIORITY values. |
+| ` _pszLoggerName ` | ` const char* ` | IN. Non-NULL, null-terminated logger name, normally the source basename. |
+| ` _pszFuncName ` | ` const char* ` | IN. Non-NULL, null-terminated calling-function name. |
+| ` _line ` | ` int ` | IN. Calling source line number. |
+| ` _pszFmt ` | ` const char* ` | IN. Non-NULL, null-terminated printf-style format string. |
+| ` ... ` | ` ... ` | IN. Formatting arguments matching the format string. |
 
 **Returns:** The current implementation returns SDK success after submitting the message. Inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -11524,9 +11524,9 @@ Implements synchronous register access and XML-resource retrieval for a collecti
 
 Read ` eOperation ` and fill the outputs documented in KYParametersHandler\_TransportCallParams\_Args. Set ` eResult ` before returning. Do not let C++ exceptions cross the callback boundary.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Transport request and callback outputs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_TransportCallParams_Args* ` | IN/OUT. Transport request and callback outputs. |
 ##### Variables
 
 <a id="group__kyvpparam__handles_1gaf8b6f5645d18b28c510be9ec3ceb90e5"></a>
@@ -11562,9 +11562,9 @@ Initialize the Parameters Handler library.
 
 Call before creating a parameter collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_Initialize\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_Initialize_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_Initialize\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_Initialize\_V1()
 
@@ -11582,9 +11582,9 @@ Create an empty parameter collection.
 
 Register its transport and initialize the collection before accessing nodes.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_CreateParameterCollection\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_CreateParameterCollection_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_CreateParameterCollection\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_CreateParameterCollection\_V1()
 
@@ -11602,9 +11602,9 @@ Register the transport callback and its application context.
 
 Registration replaces the previously registered transport callback.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_RegisterParameterCollectionTransport\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_RegisterParameterCollectionTransport_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_RegisterParameterCollectionTransport\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_RegisterParameterCollectionTransport\_V1()
 
@@ -11622,9 +11622,9 @@ Register a callback for parameter-node updates.
 
 Registration replaces the previously registered node callback.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_RegisterParameterCollectionCallback\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_RegisterParameterCollectionCallback_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_RegisterParameterCollectionCallback\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_RegisterParameterCollectionCallback\_V1()
 
@@ -11642,9 +11642,9 @@ Load the transport-supplied GenICam XML and construct the node collection.
 
 A transport callback must be registered. It supplies the XML resource using GetResourceData.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_InitializeParameterCollection\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_InitializeParameterCollection_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_InitializeParameterCollection\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_InitializeParameterCollection\_V1()
 
@@ -11662,9 +11662,9 @@ Delete a collection and release its nodes and cached resource.
 
 All descriptors and other library-owned pointers from this collection become invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_DeleteParameterCollection\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_DeleteParameterCollection_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_DeleteParameterCollection\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_DeleteParameterCollection\_V1()
 
@@ -11680,9 +11680,9 @@ KY_RESULT KYParametersHandler_UnregisterParameterCollectionTransport(KYParameter
 
 Remove the transport callback and its context.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_UnregisterParameterCollectionTransport\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_UnregisterParameterCollectionTransport_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_UnregisterParameterCollectionTransport\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_UnregisterParameterCollectionTransport\_V1()
 
@@ -11698,9 +11698,9 @@ KY_RESULT KYParametersHandler_UnregisterParameterCollectionCallback(KYParameters
 
 Remove the parameter-node callback and its context.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_UnregisterParameterCollectionCallback\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_UnregisterParameterCollectionCallback_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_UnregisterParameterCollectionCallback\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_UnregisterParameterCollectionCallback\_V1()
 
@@ -11718,9 +11718,9 @@ Return the library-owned descriptor for a named node.
 
 Treat the returned descriptor as read-only. Its lifetime is tied to the initialized collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_GetNodeDescriptor\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_GetNodeDescriptor_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_GetNodeDescriptor\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_GetNodeDescriptor\_V1()
 
@@ -11738,9 +11738,9 @@ Return the library-owned contiguous descriptor array and its element count.
 
 This returns an array of descriptors, not an array of descriptor pointers. Do not free or modify the array; its lifetime is tied to the initialized collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_GetNodeDescriptorsArray\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_GetNodeDescriptorsArray_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_GetNodeDescriptorsArray\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_GetNodeDescriptorsArray\_V1()
 
@@ -11758,9 +11758,9 @@ Read a parameter value or query its required storage size.
 
 Pass a NULL value buffer to query the required byte count for a supported value node. Use storage of the type and size described in Parameter value storage.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_GetValue\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_GetValue_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_GetValue\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_GetValue\_V1()
 
@@ -11778,9 +11778,9 @@ Write a parameter value, or execute a command node.
 
 Supply a non-NULL value pointer and byte-count pointer. See Parameter value storage.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_SetValue\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_SetValue_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_SetValue\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_SetValue\_V1()
 
@@ -11798,9 +11798,9 @@ Read the symbolic name of the current enumeration entry.
 
 Pass a NULL destination to query the byte count including the terminator. An undersized destination reports the required count without copying the string.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_GetValueEnumAsString\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_GetValueEnumAsString_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_GetValueEnumAsString\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_GetValueEnumAsString\_V1()
 
@@ -11816,9 +11816,9 @@ KY_RESULT KYParametersHandler_SetValueEnumByValueName(KYParametersHandler_SetVal
 
 Select an enumeration entry by its symbolic name.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_SetValueEnumByValueName\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_SetValueEnumByValueName_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_SetValueEnumByValueName\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_SetValueEnumByValueName\_V1()
 
@@ -11834,9 +11834,9 @@ KY_RESULT KYParametersHandler_InvalidateParameterCollection(KYParametersHandler_
 
 Invalidate cached values throughout a collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_InvalidateParameterCollection\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_InvalidateParameterCollection_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_InvalidateParameterCollection\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_InvalidateParameterCollection\_V1()
 
@@ -11854,9 +11854,9 @@ Invalidate the cached value of a named parameter.
 
 A valid, non-NULL parameter name is required. Use KYParametersHandler\_InvalidateParameterCollection() to invalidate all nodes.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_InvalidateParameter\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_InvalidateParameter_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_InvalidateParameter\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_InvalidateParameter\_V1()
 
@@ -11874,9 +11874,9 @@ Write the collection's original XML or ZIP resource to a file.
 
 The original resource bytes are saved, preserving their compressed or uncompressed form. This does not serialize current parameter values. An existing destination file is overwritten.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_SaveToFile\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_SaveToFile_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_SaveToFile\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_SaveToFile\_V1()
 
@@ -11894,9 +11894,9 @@ Read a supported GenApi property as text.
 
 Pass a NULL property buffer first to obtain its required byte count, including the terminator. Allocate at least that many bytes before retrieving the text; the caller is responsible for sufficient capacity.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_GetParameterAttributeValueArgs; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_GetParameterAttributeValueArgs* ` | IN/OUT. Required pointer to KYParametersHandler\_GetParameterAttributeValueArgs; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_GetParameterAttributeValue\_V1()
 
@@ -11914,9 +11914,9 @@ Check whether a named node exists in the collection.
 
 This checks collection membership. Inspect the descriptor access flags for current device availability and read/write access.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_IsParameterAvailableArgs; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_IsParameterAvailableArgs* ` | IN/OUT. Required pointer to KYParametersHandler\_IsParameterAvailableArgs; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_IsParameterAvailable\_V1()
 
@@ -11934,9 +11934,9 @@ Replace the complete parameter-name remapping table.
 
 Entries are copied. A zero count clears the table. Validate every entry before calling: replacement clears the old table before processing the new entries, and an invalid entry can leave a partial table.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_SetParameterNameRemapTable\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_SetParameterNameRemapTable_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_SetParameterNameRemapTable\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_SetParameterNameRemapTable\_V1()
 
@@ -11954,9 +11954,9 @@ Add a parameter-name mapping or replace the first matching source name.
 
 The entry is copied into the collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_AddParameterNameRemapEntry\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_AddParameterNameRemapEntry_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_AddParameterNameRemapEntry\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_AddParameterNameRemapEntry\_V1()
 
@@ -11974,9 +11974,9 @@ Remove the first mapping for a source parameter name.
 
 A missing source name is not an error. The optional output reports whether an entry was removed.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_RemoveParameterNameRemapEntry\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_RemoveParameterNameRemapEntry_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_RemoveParameterNameRemapEntry\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_RemoveParameterNameRemapEntry\_V1()
 
@@ -11994,9 +11994,9 @@ Copy one parameter-name mapping by its zero-based index.
 
 Query the table size first; the index must be less than the current entry count.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_GetParameterNameRemapEntryByIndex\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_GetParameterNameRemapEntryByIndex_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_GetParameterNameRemapEntryByIndex\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_GetParameterNameRemapEntryByIndex\_V1()
 
@@ -12012,9 +12012,9 @@ KY_RESULT KYParametersHandler_GetParameterNameRemapTableSize(KYParametersHandler
 
 Return the number of parameter-name mappings.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_GetParameterNameRemapTableSize\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_GetParameterNameRemapTableSize_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_GetParameterNameRemapTableSize\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_GetParameterNameRemapTableSize\_V1()
 
@@ -12030,9 +12030,9 @@ KY_RESULT KYParametersHandler_ClearParameterNameRemapTable(KYParametersHandler_C
 
 Remove all parameter-name mappings from a collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Required pointer to KYParametersHandler\_ClearParameterNameRemapTable\_Args; initialize its version and required input fields. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYParametersHandler_ClearParameterNameRemapTable_Args* ` | IN/OUT. Required pointer to KYParametersHandler\_ClearParameterNameRemapTable\_Args; initialize its version and required input fields. |
 
 **See:** KYParametersHandler\_ClearParameterNameRemapTable\_V1()
 
@@ -12050,9 +12050,9 @@ Test whether a handle equals the invalid sentinel.
 
 These comparisons do not validate whether a collection is still alive.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection handle to compare. |
 
 **Returns:** KY\_TRUE when the comparison matches; KY\_FALSE otherwise.
 
@@ -12068,9 +12068,9 @@ Test whether a handle equals the null sentinel.
 
 These comparisons do not validate whether a collection is still alive.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection handle to compare. |
 
 **Returns:** KY\_TRUE when the comparison matches; KY\_FALSE otherwise.
 
@@ -12086,10 +12086,10 @@ Test whether two collection handles have the same native identity.
 
 These comparisons do not validate whether a collection is still alive.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandleFirst` | Collection handle to compare. |
-| `_hCollectionHandleSecond` | Collection handle to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandleFirst ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection handle to compare. |
+| ` _hCollectionHandleSecond ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection handle to compare. |
 
 **Returns:** KY\_TRUE when the comparison matches; KY\_FALSE otherwise.
 
@@ -12105,11 +12105,11 @@ Initialize the Parameters Handler library.
 
 Call before creating a parameter collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_pKYParametersHandler_InitParameters` | Required initialization options; initialize the nested version. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pKYParametersHandler_InitParameters ` | ` KYParametersHandler_InitParameters* ` | IN. Required initialization options; initialize the nested version. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_Initialize()
 
@@ -12127,11 +12127,11 @@ Create an empty parameter collection.
 
 Register its transport and initialize the collection before accessing nodes.
 
-| Parameter | Description |
-| --- | --- |
-| `_phCollectionHandle` | Receives the new collection handle. Required. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _phCollectionHandle ` | ` KYVP_COLLECTION_HANDLE* ` | OUT. Receives the new collection handle. Required. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_CreateParameterCollection()
 
@@ -12149,11 +12149,11 @@ Delete a collection and release its nodes and cached resource.
 
 All descriptors and other library-owned pointers from this collection become invalid.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_DeleteParameterCollection()
 
@@ -12173,13 +12173,13 @@ Register the transport callback and its application context.
 
 Registration replaces the previously registered transport callback.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pTRANSPORT_FUNC` | Callback implementing register and XML-resource transport. Required. |
-| `_pContext` | Application context passed to the registered callback. May be NULL. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pTRANSPORT_FUNC ` | ` TRANSPORT_FUNC ` | IN. Callback implementing register and XML-resource transport. Required. |
+| ` _pContext ` | ` void* ` | IN. Application context passed to the registered callback. May be NULL. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_RegisterParameterCollectionTransport()
 
@@ -12195,11 +12195,11 @@ KY_RESULT KYParametersHandler_UnregisterParameterCollectionTransport_V1(KYVP_COL
 
 Remove the transport callback and its context.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_UnregisterParameterCollectionTransport()
 
@@ -12217,13 +12217,13 @@ Register a callback for parameter-node updates.
 
 Registration replaces the previously registered node callback.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pPARAMETER_CALLBACK_FUNC` | Callback receiving node updates. Required. |
-| `_pContext` | Application context passed to the registered callback. May be NULL. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pPARAMETER_CALLBACK_FUNC ` | ` PARAMETER_CALLBACK_FUNC ` | IN. Callback receiving node updates. Required. |
+| ` _pContext ` | ` void* ` | IN. Application context passed to the registered callback. May be NULL. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_RegisterParameterCollectionCallback()
 
@@ -12239,11 +12239,11 @@ KY_RESULT KYParametersHandler_UnregisterParameterCollectionCallback_V1(KYVP_COLL
 
 Remove the parameter-node callback and its context.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_UnregisterParameterCollectionCallback()
 
@@ -12261,11 +12261,11 @@ Load the transport-supplied GenICam XML and construct the node collection.
 
 A transport callback must be registered. It supplies the XML resource using GetResourceData.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_InitializeParameterCollection()
 
@@ -12283,13 +12283,13 @@ Return the library-owned descriptor for a named node.
 
 Treat the returned descriptor as read-only. Its lifetime is tied to the initialized collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_ppNodeDescriptor` | Receives a pointer to the library-owned node descriptor. Required; treat the descriptor as read-only. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _ppNodeDescriptor ` | ` KYVP_NodeDescriptor** ` | OUT. Receives a pointer to the library-owned node descriptor. Required; treat the descriptor as read-only. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_GetNodeDescriptor()
 
@@ -12307,13 +12307,13 @@ Return the library-owned contiguous descriptor array and its element count.
 
 This returns an array of descriptors, not an array of descriptor pointers. Do not free or modify the array; its lifetime is tied to the initialized collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_ppArray` | Receives the base address of the library-owned descriptor array. Required; elements are descriptors, not pointers. |
-| `_piSize` | Required pointer receiving the number of descriptors. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _ppArray ` | ` const KYVP_NodeDescriptor** ` | OUT. Receives the base address of the library-owned descriptor array. Required; elements are descriptors, not pointers. |
+| ` _piSize ` | ` size_t* ` | OUT. Required pointer receiving the number of descriptors. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_GetNodeDescriptorsArray()
 
@@ -12331,14 +12331,14 @@ Read a parameter value or query its required storage size.
 
 Pass a NULL value buffer to query the required byte count for a supported value node. Use storage of the type and size described in Parameter value storage.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_pParamValue` | Value buffer; NULL queries required size when reading. See Parameter value storage. |
-| `_piParamValueSize` | Required pointer to value-buffer size in bytes; receives size on a NULL-buffer query. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _pParamValue ` | ` void* ` | OUT. Value buffer; NULL queries required size when reading. See Parameter value storage. |
+| ` _piParamValueSize ` | ` size_t* ` | IN/OUT. Required pointer to value-buffer size in bytes; receives size on a NULL-buffer query. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_GetValue()
 
@@ -12356,14 +12356,14 @@ Write a parameter value, or execute a command node.
 
 Supply a non-NULL value pointer and byte-count pointer. See Parameter value storage.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_pParamValue` | Required value buffer. See Parameter value storage. |
-| `_piParamValueSize` | Required pointer to input value size in bytes; the count is not updated. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _pParamValue ` | ` const void* ` | IN. Required value buffer. See Parameter value storage. |
+| ` _piParamValueSize ` | ` size_t* ` | IN. Required pointer to input value size in bytes; the count is not updated. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_SetValue()
 
@@ -12381,14 +12381,14 @@ Read the symbolic name of the current enumeration entry.
 
 Pass a NULL destination to query the byte count including the terminator. An undersized destination reports the required count without copying the string.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszEnumerationName` | Name of the enumeration to read. Non-NULL, NUL-terminated string; remapping applies. |
-| `_pszParamValueString` | Buffer receiving the current enumeration entry symbolic name. NULL queries the required size. |
-| `_piParamValueStringSize` | Pointer to destination capacity in bytes, including the terminator. Required; updated on a size query or insufficient capacity. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszEnumerationName ` | ` const char* ` | IN. Name of the enumeration to read. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _pszParamValueString ` | ` char* ` | OUT. Buffer receiving the current enumeration entry symbolic name. NULL queries the required size. |
+| ` _piParamValueStringSize ` | ` size_t* ` | IN/OUT. Pointer to destination capacity in bytes, including the terminator. Required; updated on a size query or insufficient capacity. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_GetValueEnumAsString()
 
@@ -12404,13 +12404,13 @@ KY_RESULT KYParametersHandler_SetValueEnumByValueName_V1(KYVP_COLLECTION_HANDLE 
 
 Select an enumeration entry by its symbolic name.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_pszParamValue` | Symbolic name of the enumeration entry to select. Non-NULL, NUL-terminated string. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _pszParamValue ` | ` const char* ` | IN. Symbolic name of the enumeration entry to select. Non-NULL, NUL-terminated string. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_SetValueEnumByValueName()
 
@@ -12426,13 +12426,13 @@ KY_RESULT KYParametersHandler_SetValueEnum_V1(KYVP_COLLECTION_HANDLE _hCollectio
 
 Set an enumeration to its numeric entry value.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_Value` | Value to write. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _Value ` | ` int64_t ` | IN. Value to write. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_SetValue()
 
@@ -12448,13 +12448,13 @@ KY_RESULT KYParametersHandler_SetValueInt_V1(KYVP_COLLECTION_HANDLE _hCollection
 
 Write a signed 64-bit integer parameter value.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_Value` | Value to write. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _Value ` | ` int64_t ` | IN. Value to write. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_SetValue()
 
@@ -12470,13 +12470,13 @@ KY_RESULT KYParametersHandler_SetValueBool_V1(KYVP_COLLECTION_HANDLE _hCollectio
 
 Write a Boolean parameter value.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_Value` | Value to write. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _Value ` | ` KY_BOOL ` | IN. Value to write. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_SetValue()
 
@@ -12492,11 +12492,11 @@ KY_RESULT KYParametersHandler_InvalidateParameterCollection_V1(KYVP_COLLECTION_H
 
 Invalidate cached values throughout a collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_InvalidateParameterCollection()
 
@@ -12514,12 +12514,12 @@ Invalidate the cached value of a named parameter.
 
 A valid, non-NULL parameter name is required. Use KYParametersHandler\_InvalidateParameterCollection() to invalidate all nodes.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_InvalidateParameter()
 
@@ -12537,12 +12537,12 @@ Write the collection's original XML or ZIP resource to a file.
 
 The original resource bytes are saved, preserving their compressed or uncompressed form. This does not serialize current parameter values. An existing destination file is overwritten.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszFilePath` | Destination path for the original XML or ZIP resource. Non-NULL, NUL-terminated string. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszFilePath ` | ` const char* ` | IN. Destination path for the original XML or ZIP resource. Non-NULL, NUL-terminated string. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_SaveToFile()
 
@@ -12560,15 +12560,15 @@ Read a supported GenApi property as text.
 
 Pass a NULL property buffer first to obtain its required byte count, including the terminator. Allocate at least that many bytes before retrieving the text; the caller is responsible for sufficient capacity.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_eAttributeType` | GenApi property to query. Currently supports Invalidator. |
-| `_pszPropertyValue` | Buffer receiving the property text. NULL queries the required byte count. |
-| `_piPropertyValueSize` | Receives the property text size, including its terminator. Required; query before allocating the text buffer. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _eAttributeType ` | ` KYVP_ParameterAttributeType ` | IN. GenApi property to query. Currently supports Invalidator. |
+| ` _pszPropertyValue ` | ` char* ` | OUT. Buffer receiving the property text. NULL queries the required byte count. |
+| ` _piPropertyValueSize ` | ` size_t* ` | OUT. Receives the property text size, including its terminator. Required; query before allocating the text buffer. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_GetParameterAttributeValue()
 
@@ -12586,13 +12586,13 @@ Check whether a named node exists in the collection.
 
 This checks collection membership. Inspect the descriptor access flags for current device availability and read/write access.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `pszParamName` | Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| `_pbIsAvailable` | Required pointer receiving whether the node exists in the collection. |
-| `_pszErrorString` | Optional diagnostic text buffer. See Optional diagnostic buffers. |
-| `_piErrorStringSize` | Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
+| ` _pbIsAvailable ` | ` KY_BOOL* ` | OUT. Required pointer receiving whether the node exists in the collection. |
+| ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
+| ` _piErrorStringSize ` | ` size_t* ` | IN. Pointer to diagnostic buffer capacity in bytes. Optional; required when ` pszErrorString ` is supplied. |
 
 **See:** KYParametersHandler\_IsParameterAvailable()
 
@@ -12610,11 +12610,11 @@ Replace the complete parameter-name remapping table.
 
 Entries are copied. A zero count clears the table. Validate every entry before calling: replacement clears the old table before processing the new entries, and an invalid entry can leave a partial table.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pEntries` | Array of mappings to copy into the collection. Required when ` iNumEntries ` is nonzero. |
-| `_iNumEntries` | Number of mappings in ` pEntries `. Zero clears the table. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pEntries ` | ` const KYVP_ParameterNameRemapEntry* ` | IN. Array of mappings to copy into the collection. Required when ` iNumEntries ` is nonzero. |
+| ` _iNumEntries ` | ` size_t ` | IN. Number of mappings in ` pEntries `. Zero clears the table. |
 
 **See:** KYParametersHandler\_SetParameterNameRemapTable()
 
@@ -12632,11 +12632,11 @@ Add a parameter-name mapping or replace the first matching source name.
 
 The entry is copied into the collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pEntry` | Required pointer to the mapping to copy. |
-| `_pbReplaced` | Receives KY\_TRUE when an existing source mapping was replaced. Optional. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pEntry ` | ` const KYVP_ParameterNameRemapEntry* ` | IN. Required pointer to the mapping to copy. |
+| ` _pbReplaced ` | ` KY_BOOL* ` | OUT. Receives KY\_TRUE when an existing source mapping was replaced. Optional. |
 
 **See:** KYParametersHandler\_AddParameterNameRemapEntry()
 
@@ -12654,11 +12654,11 @@ Remove the first mapping for a source parameter name.
 
 A missing source name is not an error. The optional output reports whether an entry was removed.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_pszFromName` | Source name whose mapping should be removed. Non-NULL, NUL-terminated string; case-sensitive. |
-| `_pbRemoved` | Receives KY\_TRUE when a mapping was removed. Optional. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _pszFromName ` | ` const char* ` | IN. Source name whose mapping should be removed. Non-NULL, NUL-terminated string; case-sensitive. |
+| ` _pbRemoved ` | ` KY_BOOL* ` | OUT. Receives KY\_TRUE when a mapping was removed. Optional. |
 
 **See:** KYParametersHandler\_RemoveParameterNameRemapEntry()
 
@@ -12676,11 +12676,11 @@ Copy one parameter-name mapping by its zero-based index.
 
 Query the table size first; the index must be less than the current entry count.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_iIndex` | Zero-based index of the mapping to retrieve. Must be smaller than the table size. |
-| `_pEntry` | Required pointer receiving a copy of the mapping. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _iIndex ` | ` size_t ` | IN. Zero-based index of the mapping to retrieve. Must be smaller than the table size. |
+| ` _pEntry ` | ` KYVP_ParameterNameRemapEntry* ` | OUT. Required pointer receiving a copy of the mapping. |
 
 **See:** KYParametersHandler\_GetParameterNameRemapEntryByIndex()
 
@@ -12696,10 +12696,10 @@ KY_RESULT KYParametersHandler_GetParameterNameRemapTableSize_V1(KYVP_COLLECTION_
 
 Return the number of parameter-name mappings.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
-| `_piSize` | Required pointer receiving the number of remap entries. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
+| ` _piSize ` | ` size_t* ` | OUT. Required pointer receiving the number of remap entries. |
 
 **See:** KYParametersHandler\_GetParameterNameRemapTableSize()
 
@@ -12715,9 +12715,9 @@ KY_RESULT KYParametersHandler_ClearParameterNameRemapTable_V1(KYVP_COLLECTION_HA
 
 Remove all parameter-name mappings from a collection.
 
-| Parameter | Description |
-| --- | --- |
-| `_hCollectionHandle` | Collection to operate on. Valid collection handle required. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
 
 **See:** KYParametersHandler\_ClearParameterNameRemapTable()
 
@@ -13381,10 +13381,10 @@ Receives a notification with the current parameter descriptor.
 
 The callback runs synchronously in the node-notification path. Keep it short and do not let C++ exceptions cross the callback boundary.
 
-| Parameter | Description |
-| --- | --- |
-| `_pNodeDescriptor` | Library-owned descriptor; inspect or copy the required data during the callback. |
-| `_pContext` | Application context supplied when the callback was registered. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pNodeDescriptor ` | ` const KYVP_NodeDescriptor* ` | IN. Library-owned descriptor; inspect or copy the required data during the callback. |
+| ` _pContext ` | ` void* ` | IN. Application context supplied when the callback was registered. |
 
 <a id="_k_y_v_p__node_descriptor"></a>
 
@@ -14161,9 +14161,9 @@ Create and register an image converter.
 
 Delete the returned handle with KYImgProc\_DeleteImageConverter() when finished. The current version-1 conversion API does not use a caller-supplied converter handle.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_InitImageConverterArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_InitImageConverterArgs* ` | IN/OUT. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_InitImageConverterArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14181,9 +14181,9 @@ Create and register a video recorder.
 
 Configure it with KYImgProc\_StartVideoRecord() before submitting frames.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_InitVideoRecorderArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_InitVideoRecorderArgs* ` | IN/OUT. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_InitVideoRecorderArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14201,9 +14201,9 @@ Delete an image converter and remove its handle registration.
 
 The existing C++ member default is zero. Set ` uVersion ` explicitly to KYIMGPROC\_DELETEIMAGECONVERTER\_STRUCT\_VERSION before use.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_DeleteImageConverterArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_DeleteImageConverterArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_DeleteImageConverterArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14219,9 +14219,9 @@ Remove a video-recorder handle registration.
 
 For an active recorder, stop it first with KYImgProc\_StopVideoRecord(). This call removes its handle registration; it does not stop recording or destroy the recorder object.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_DeleteVideoRecorderArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_DeleteVideoRecorderArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_DeleteVideoRecorderArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14237,9 +14237,9 @@ Look up a PFNC or CoaXPress numeric pixel-format code.
 
 Initialize the decoder version and point ` pVP_PIXEL_FORMAT ` at a writable KYVP\_PIXEL\_FORMAT before calling. Zero is rejected by numeric lookup, including the all-zero raw code; lookup by the name ` Raw ` is available. Lookup returns the first matching entry in the SDK table. A shared CoaXPress code can map to several PFNC storage formats, so use an exact PFNC numeric value when packed/unpacked identity matters.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_GetPixelFormat\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYImgProc_GetPixelFormat_Args* ` | IN/OUT. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_GetPixelFormat\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14257,9 +14257,9 @@ Look up a PFNC-style or CoaXPress pixel-format name.
 
 Initialize the decoder version and point ` pVP_PIXEL_FORMAT ` at a writable KYVP\_PIXEL\_FORMAT before calling. Names are matched case-insensitively against both SDK PFNC and CoaXPress names; the first matching table entry is returned.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_GetPixelFormatByName\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYImgProc_GetPixelFormatByName_Args* ` | IN/OUT. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_GetPixelFormatByName\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14277,9 +14277,9 @@ Convert or resize an image into application-provided destination storage.
 
 The public KYImgProc\_ConvertImage() entry point currently accepts version 1 only. Although the layout includes ` h_ImgProcHandle ` for version 2, setting ` uVersion ` to 2 is currently rejected. Initialize ` h_ImgProcHandle ` to KYIMGPROC\_IMAGE\_CONVERTER\_HANDLE\_INVALID, including when using version 1. Initialize both image descriptors and their format metadata. Supported conversions depend on the configured image-processing backend.
 
-| Parameter | Description |
-| --- | --- |
-| `_convertStruct` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_ConvertParam\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _convertStruct ` | ` KYIMGPROC_ConvertParam_Args* ` | IN/OUT. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_ConvertParam\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14297,9 +14297,9 @@ Calculate a packed-data processing plan and destination allocation size.
 
 Supply a decoded format and positive image dimensions. The result reports the destination allocation size using SDK row-alignment rules; it does not allocate memory.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_GetPackedDataInfo\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYImgProc_GetPackedDataInfo_Args* ` | IN/OUT. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_GetPackedDataInfo\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14317,9 +14317,9 @@ Process packed samples according to a prepared processing plan.
 
 Obtain the plan with KYImgProc\_GetPackedDataInfo() first. Allocate sufficient non-overlapping source and destination storage. The caller must ensure both buffer capacities are sufficient; buffer-size errors may not be reported. Packed source rows must follow the SDK four-byte row-alignment rule. Provide at least three additional readable padding bytes after the source image data.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_PreproccessPackedData\_Args. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYImgProc_PreproccessPackedData_Args* ` | IN/OUT. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_PreproccessPackedData\_Args. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14337,9 +14337,9 @@ Save one image in the selected image-file format.
 
 Select a non-UNKNOWN format and bit alignment. The filename extension is added or replaced to match the selected format. Encoded-image saving requires OpenCV support in the SDK build.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveImageArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_SaveImageArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveImageArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14357,9 +14357,9 @@ Save an array of images as one vertically stacked image.
 
 Images are stacked in array order, top to bottom, into a single image. All entries must have matching dimensions, decoded pixel fields, and RGB channel order. This is not a multipage TIFF operation. Select a non-UNKNOWN format and bit alignment. The filename extension is added or replaced. Encoded-image saving requires OpenCV support in the SDK build.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveImageMultiArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_SaveImageMultiArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveImageMultiArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14375,9 +14375,9 @@ Write one image buffer to a raw binary file.
 
 The output filename uses the .raw extension. The buffer is written unchanged, with no image header or pixel conversion. Raw saving does not require OpenCV.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveRawArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_SaveRawArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveRawArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14395,9 +14395,9 @@ Concatenate image buffers into a raw binary file.
 
 The buffers are written unchanged in array order with no headers or separators. Every buffer must have the same nonzero byte count. The output filename uses the .raw extension; raw saving does not require OpenCV.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveRawMultiArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_SaveRawMultiArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveRawMultiArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14413,9 +14413,9 @@ Start an AVI recording with the configured MPEG-4 encoder.
 
 Initialize every field; several members have no C++ default initializer. The recorder retains a pointer to this structure, so keep it and its referenced filename and pixel metadata valid until recording stops. The current backend writes MPEG-4 video in an AVI container.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveVideoArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_SaveVideoArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_SaveVideoArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14433,9 +14433,9 @@ Finalize recording and destroy the recorder object.
 
 Stop waits for the frame worker and finalizes the file, then destroys the recorder object. The handle registration remains until KYImgProc\_DeleteVideoRecorder() is called. After stop, use the handle only to remove that registration.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_StopVideoRecordArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYImgProc_StopVideoRecordArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYImgProc\_StopVideoRecordArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14453,9 +14453,9 @@ Copy a frame into the recorder queue for asynchronous encoding.
 
 Submit only after successful start. The recorder copies image bytes and pixel-format records before queuing the frame. The caller retains ownership of its source storage. A successful return does not guarantee that the frame was queued, encoded, or written to disk. Queueing and asynchronous encoding failures are not reported by this return value.
 
-| Parameter | Description |
-| --- | --- |
-| `_pArgs` | Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_WriteVideoFrameArgs. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _pArgs ` | ` KYIMGPROC_WriteVideoFrameArgs* ` | IN. Non-NULL argument block; initialize its version, required fields, and nested records as described in KYIMGPROC\_WriteVideoFrameArgs. |
 
 **Returns:** SDK status; inspect with KY\_RESULT\_SUCCEEDED() or KY\_RESULT\_FAILED().
 
@@ -14473,9 +14473,9 @@ Test whether a handle equals the invalid sentinel.
 
 This is a stored-value comparison, not a check that the underlying object is live or registered.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | First handle value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYIMGPROC_IMAGE_CONVERTER_HANDLE ` | IN. First handle value. |
 
 **Returns:** KY\_TRUE when the handle equals the invalid sentinel; otherwise KY\_FALSE.
 
@@ -14491,9 +14491,9 @@ Test whether a handle equals the null sentinel.
 
 This is a stored-value comparison, not a check that the underlying object is live or registered.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | First handle value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYIMGPROC_IMAGE_CONVERTER_HANDLE ` | IN. First handle value. |
 
 **Returns:** KY\_TRUE when the handle equals the null sentinel; otherwise KY\_FALSE.
 
@@ -14509,10 +14509,10 @@ Compare two handle values for equality.
 
 This is a stored-value comparison, not a check that the underlying object is live or registered.
 
-| Parameter | Description |
-| --- | --- |
-| `_hFirstHandle` | First handle value. |
-| `_hOtherHandle` | Second handle value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hFirstHandle ` | ` KYIMGPROC_IMAGE_CONVERTER_HANDLE ` | IN. First handle value. |
+| ` _hOtherHandle ` | ` KYIMGPROC_IMAGE_CONVERTER_HANDLE ` | IN. Second handle value. |
 
 **Returns:** KY\_TRUE when the stored handle values are equal; otherwise KY\_FALSE.
 
@@ -14528,9 +14528,9 @@ Test whether a handle equals the invalid sentinel.
 
 This is a stored-value comparison, not a check that the underlying object is live or registered.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | First handle value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYIMGPROC_VIDEO_RECORDER_HANDLE ` | IN. First handle value. |
 
 **Returns:** KY\_TRUE when the handle equals the invalid sentinel; otherwise KY\_FALSE.
 
@@ -14546,9 +14546,9 @@ Test whether a handle equals the null sentinel.
 
 This is a stored-value comparison, not a check that the underlying object is live or registered.
 
-| Parameter | Description |
-| --- | --- |
-| `_hHandle` | First handle value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hHandle ` | ` KYIMGPROC_VIDEO_RECORDER_HANDLE ` | IN. First handle value. |
 
 **Returns:** KY\_TRUE when the handle equals the null sentinel; otherwise KY\_FALSE.
 
@@ -14564,10 +14564,10 @@ Compare two handle values for equality.
 
 This is a stored-value comparison, not a check that the underlying object is live or registered.
 
-| Parameter | Description |
-| --- | --- |
-| `_hFirstHandle` | First handle value. |
-| `_hOtherHandle` | Second handle value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _hFirstHandle ` | ` KYIMGPROC_VIDEO_RECORDER_HANDLE ` | IN. First handle value. |
+| ` _hOtherHandle ` | ` KYIMGPROC_VIDEO_RECORDER_HANDLE ` | IN. Second handle value. |
 
 **Returns:** KY\_TRUE when the stored handle values are equal; otherwise KY\_FALSE.
 
@@ -15213,9 +15213,9 @@ const char * KYFoundation_What(KY_RESULT _result)
 
 Retrieve diagnostic text for an SDK result.
 
-| Parameter | Description |
-| --- | --- |
-| `_result` | Result returned by an SDK operation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _result ` | ` KY_RESULT ` | IN. Result returned by an SDK operation. |
 
 **Returns:** Library-owned, null-terminated diagnostic string. Returns "Unknown KY\_RESULT" when no description is available.
 
@@ -15233,9 +15233,9 @@ uint32_t KYFoundation_GetErrorCode(KY_RESULT _result)
 
 Retrieve the numeric code from an SDK result.
 
-| Parameter | Description |
-| --- | --- |
-| `_result` | Result returned by an SDK operation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _result ` | ` KY_RESULT ` | IN. Result returned by an SDK operation. |
 
 **Returns:** Code component of the result. Compare with KY\_RESULT\_CODE\_\* constants or the additional result codes documented by the called API.
 
@@ -15253,9 +15253,9 @@ uint32_t KYFoundation_GetSeverity(KY_RESULT _result)
 
 Retrieve the severity associated with an SDK result.
 
-| Parameter | Description |
-| --- | --- |
-| `_result` | Result returned by an SDK operation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ` _result ` | ` KY_RESULT ` | IN. Result returned by an SDK operation. |
 
 **Returns:** One of the KY\_SEVERITY\_\* values.
 
@@ -15481,7 +15481,7 @@ Open camera serial ports using native Vision Point II device discovery and exten
 
 #### Purpose and workflow
 
-This C++ console sample opens the transport layer, enumerates PCI interfaces and cameras, and opens a native device before using the clserkyi serial-port API. It lists port identifiers, initializes a selected port, sends text commands and reads responses. It does not acquire image buffers.
+This C console sample opens the transport layer, enumerates PCI interfaces and cameras, and opens a native device before using the clserkyi serial-port API. It lists port identifiers, initializes a selected port, sends text commands and reads responses. It does not acquire image buffers.
 
 <a id="sample_native_serial_1sample_native_serial_2"></a>
 
@@ -15543,7 +15543,7 @@ Use the adapter implementation of the Camera Link serial API with legacy camera 
 
 #### Purpose and workflow
 
-This C++ console project links clserkyi functions from KYFGLibA and defines KYCLSER\_ADAPTER. It uses legacy discovery and camera handles, enumerates serial ports, opens a port, sends commands and reads responses either through a callback or explicit reads. Per-camera clGetNumSerialPortsEx() and clSerialInitEx() are used when a specific camera index is selected.
+This C console project links clserkyi functions from KYFGLibA and defines KYCLSER\_ADAPTER. It uses legacy discovery and camera handles, enumerates serial ports, opens a port, sends commands and reads responses either through a callback or explicit reads. Per-camera clGetNumSerialPortsEx() and clSerialInitEx() are used when a specific camera index is selected.
 
 <a id="sample_adapter_serial_1sample_adapter_serial_2"></a>
 
@@ -15581,7 +15581,7 @@ Combine legacy camera discovery with serial-port functions from the native Visio
 
 #### Purpose and workflow
 
-This migration variant builds the same C++ source as KYFGLibA\_Example\_SerialPort\_API without KYCLSER\_ADAPTER. Its linker inputs place KYVPLibExtension before KYFGLibA so clserkyi calls resolve to the native extension. Legacy camera handles are converted through KYFG\_Camera\_Get\_KYVP\_DEVICE\_HANDLE() where the native device handle is needed. Serial ports are enumerated globally and opened with clSerialInit(); the adapter-only per-camera Ex calls are bypassed. Port identifiers are also displayed.
+This migration variant builds the same C source as KYFGLibA\_Example\_SerialPort\_API without KYCLSER\_ADAPTER. Its linker inputs place KYVPLibExtension before KYFGLibA so clserkyi calls resolve to the native extension. Legacy camera handles are converted through KYFG\_Camera\_Get\_KYVP\_DEVICE\_HANDLE() where the native device handle is needed. Serial ports are enumerated globally and opened with clSerialInit(); the adapter-only per-camera Ex calls are bypassed. Port identifiers are also displayed.
 
 <a id="sample_adapter_extension_serial_1sample_adapter_extension_serial_2"></a>
 
