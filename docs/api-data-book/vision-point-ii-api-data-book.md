@@ -21,12 +21,12 @@ This API is to be used with KAYA’s Frame Grabbers hardware provided by KAYA Vi
 
 This API guide is divided into few major topics each related to different functionalities:
 
-- Common include headers define shared SDK types, result codes, and compiler annotations.
+- Common include headers defines shared SDK types, result codes, and compiler annotations.
 - KYVPLibTL library implements the transport layer function.
 - KYVPParametersHandler library provides access to devices’ Gen&lt;i&gt;Cam parameters.
 - KYVPLibExtension library enhances the functionality of the KYVPLibTL library.
 - KYVPImage Processing library to perform various image processing tasks with acquired stream images.
-- KYFoundation library to handling KY\_RESULT
+- KYFoundation library to handling KY\_RESULT.
 - API examples.
 
 ## API Notes and Limitations
@@ -46,13 +46,13 @@ Vision Point II API is NOT thread-safe. This means that if a calling application
 
 ### Important notes
 
-1. <strong>DllMain</strong><strong> function:</strong>
+1. <strong>DllMain function:</strong>
 
 KAYA’s API should <strong>NOT</strong> be used from DllMain function on Windows OS.
 
 There are significant limits on what you can safely do at a DLL entry point. See [General Best Practices](https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-best-practices) for specific Windows APIs that are unsafe to call in DllMain. If more than the simplest initialization is required, it is recommended to perform it in an initialization function for the DLL. You can require applications to call the initialization function after DllMain has run and before they call any other functions in the DLL.
 
-2. <strong>KYVP </strong><strong>ParametersHandler</strong><strong> performance</strong><strong>:</strong>
+2. <strong>KYVP ParametersHandler performance</strong><strong>:</strong>
 
 Functions of KYVP ParametersHandler are inherently relatively slow because they utilize the Gen&lt;I&gt;Cam reference implementation. Therefore, we do not suggest using them in performance-critical parts of the code, such as the stream callback function, etc. Instead, we highly recommend using KYVPLibTL\_DSGetBufferInfo() with a relevant command to retrieve the required information. Those functions can still be used in non\-performance-critical parts for example at the system initialization, before or after acquisition sessions etc.
 
@@ -2932,7 +2932,9 @@ KYVPHWLib\_Errors.h defines the hardware result codes for outdated firmware and 
 
 ### Compiler warning controls
 
-KYFoundation\_CompilerWarnings.h provides scoped compiler-warning controls. Pair KY\_DISABLE\_WARNING\_PUSH with KY\_DISABLE\_WARNING\_POP around the code that needs a suppression; the available mappings depend on the compiler.
+KYFoundation\_CompilerWarnings.h provides scoped compiler-warning controls.
+
+Pair KY\_DISABLE\_WARNING\_PUSH with KY\_DISABLE\_WARNING\_POP around the code that needs a suppression; the available mappings depend on the compiler.
 
 #### KYFoundation_CompilerWarnings.h API reference
 
@@ -3058,7 +3060,9 @@ Expands to a supported Clang or GCC warning attribute; empty in the other branch
 
 KYVPLibTL library is low level library similar to GenTL Producer. KYVPLibTL library implements the transport layer function. This library provides a transport layer interface to acquire images or other data and facilitate communication with a device. Its role is not to configure the device, except for transport-related settings, though it may be used indirectly to transmit configuration information to and from the device.
 
-![Figure](./assets/vision-point-ii-api-data-book/1a94e3a55c1322e273cb.png)
+![Figure](./assets/vision-point-ii-api-data-book/41cbb800388eef919a25.png)
+
+<a id="word-_Toc242634261"></a>
 
 *Figure 1 – KYVPLibTL function call sequence*
 
@@ -3097,7 +3101,9 @@ KYVPLibTL library is low level library similar to GenTL Producer. KYVPLibTL libr
 
 The KYVPLibTL standard defines a layered structure for libraries implementing the KYVPLibTL Interface. Each layer is defined in a module. The modules are presented in a tree structure with the System module as its root.
 
-![Figure](./assets/vision-point-ii-api-data-book/9c7da1f518cf9bd56a23.png)
+![Figure](./assets/vision-point-ii-api-data-book/0ecf4b5b20dccbf1bd40.png)
+
+<a id="word-_Toc242634262"></a>
 
 *Figure 2 – Module hierarchy*
 
@@ -3129,7 +3135,9 @@ The Buffer module represents a single memory buffer intended for acquisition. Th
 
 The behavior described below is observed from the perspective of a single process. A KYVPLibTL Producer implementation must ensure that each process accessing the resources has an independent view of the hardware, without needing to be aware that other processes are also involved.
 
-![Figure](./assets/vision-point-ii-api-data-book/cf70be4bde16b708cc2d.png)
+![Figure](./assets/vision-point-ii-api-data-book/f9405c7e77d77d098df3.png)
+
+<a id="word-_Toc242634263"></a>
 
 *Figure 3 – Enumeration hierarchy*
 
@@ -11101,7 +11109,9 @@ Forward a formatted application message to the SDK logger.
 
 This KYVPParametersHandler is a high level library that loads Gen&lt;i&gt;Cam XML and provides software interface for reading and writing values by a named parameter, and also queuering various attributes of parameter such as min, max, description etc (similar to what Gen&lt;i&gt;Cam reference library implementation provides). It translates high level API calls with parameter names into low level transport requests with register addresses. It does not implement transport functionality and should be used in conjunction with a separate transport implementation.
 
-*![A screenshot of a computer](./assets/vision-point-ii-api-data-book/4e9644e0978ad213648d.png)*
+*![A screenshot of a computer](./assets/vision-point-ii-api-data-book/d1c1a52592c6c47991fd.png)*
+
+<a id="word-_Toc242634264"></a>
 
 *Figure 4 – KYVPParameterHandler function call sequence*
 
@@ -12564,7 +12574,7 @@ Pass a NULL property buffer first to obtain its required byte count, including t
 | --- | --- | --- |
 | ` _hCollectionHandle ` | ` KYVP_COLLECTION_HANDLE ` | IN. Collection to operate on. Valid collection handle required. |
 | ` _pszParamName ` | ` const char* ` | IN. Name of the parameter to access. Non-NULL, NUL-terminated string; remapping applies. |
-| ` _eAttributeType ` | ` KYVP_ParameterAttributeType ` | IN. GenApi property to query. Currently supports Invalidator. |
+| ` _eAttributeType ` | ` KYVP_ParameterAttributeType ` | IN. GenApi property to query. Supports Invalidator and Value. |
 | ` _pszPropertyValue ` | ` char* ` | OUT. Buffer receiving the property text. NULL queries the required byte count. |
 | ` _piPropertyValueSize ` | ` size_t* ` | OUT. Receives the property text size, including its terminator. Required; query before allocating the text buffer. |
 | ` _pszErrorString ` | ` char* ` | OUT. Optional diagnostic text buffer. See Optional diagnostic buffers. |
@@ -13090,7 +13100,7 @@ Initialize ` version ` to KYPARAMETERSHANDLER\_SAVETOFILE\_STRUCT\_VERSION.
 | version | uint32\_t | Structure version. | IN. Required. |
 | hCollectionHandle | KYVP\_COLLECTION\_HANDLE | Collection to operate on. | IN. Valid collection handle required. |
 | pszParamName | const char\* | Name of the parameter to access. | IN. Non-NULL, NUL-terminated string; remapping applies. |
-| eAttributeType | KYVP\_ParameterAttributeType | GenApi property to query. | IN. Currently supports Invalidator. |
+| eAttributeType | KYVP\_ParameterAttributeType | GenApi property to query. | IN. Supports Invalidator and Value. |
 | pszPropertyValue | char\* | Buffer receiving the property text. | OUT. NULL queries the required byte count. |
 | piPropertyValueSize | size\_t\* | Receives the property text size, including its terminator. | OUT. Required; query before allocating the text buffer. |
 | pszErrorString | char\* | Optional diagnostic text buffer. | OUT. See Optional diagnostic buffers. |
@@ -13316,6 +13326,7 @@ Parameter properties available through the attribute query API.
 | Name | Value | Description |
 | --- | --- | --- |
 | `KYVP_ParameterAttributeType_Invalidator` | `0` | The pInvalidator property naming a node whose changes invalidate this node cache. |
+| `KYVP_ParameterAttributeType_Value` | `1` | The pValue property naming the node that supplies this node's value. |
 | `KYVP_ParameterAttributeType_Invalid` | `0xFF` | Invalid or unsupported attribute selector. |
 ##### Type definitions
 
@@ -15798,7 +15809,7 @@ make
 
 ## Collect Diagnostic Info
 
-Use <strong>Collect diagnostic info</strong> when reporting an issue to KAYA support. The command runs the KYInfo collection script, gathers system information and log files, and creates an archive that you can send to support for diagnosis.
+Use <strong>Collect diagnostic info</strong> when reporting an issue to KAYA support. The command runs the KYInfo collection script, gathers system information and log files, and creates an archive that can be sent to KAYA support for diagnosis.
 
 ### Windows Operating System
 
@@ -15810,7 +15821,9 @@ Right-click the KAYA Service Controller II icon in the notification area (system
 
 ![Collect diagnostic info from the KAYA Service Controller II tray menu](./assets/vision-point-ii-api-data-book/741a591f5e8611a33d3b.png)
 
-*Figure 9 – Collect diagnostic info from the KAYA Service Controller II tray menu*
+<a id="word-_Toc242634265"></a>
+
+*Figure 5 – Collect diagnostic info from the KAYA Service Controller II tray menu*
 
 <strong>KAYA Vision Studio</strong>
 
@@ -15818,15 +15831,19 @@ In KAYA Vision Studio, open the Help menu and select Collect diagnostic info.
 
 ![Collect diagnostic info from the KAYA Vision Studio Help menu](./assets/vision-point-ii-api-data-book/0546b9470bba835adc74.png)
 
-*Figure 10 – Collect diagnostic info from the KAYA Vision Studio Help menu*
+<a id="word-_Toc242634266"></a>
+
+*Figure 6 – Collect diagnostic info from the KAYA Vision Studio Help menu*
 
 <strong>Windows Start menu</strong>
 
 Open the Start menu, expand KAYA Instruments, and select Collect diagnostic info.
 
-![Collect diagnostic info from the Windows Start menu](./assets/vision-point-ii-api-data-book/0935dc634022530a04f0.png)
+![Collect diagnostic info from the Windows Start menu](./assets/vision-point-ii-api-data-book/6365366c067ab6ce2bc1.png)
 
-*Figure 11 – Collect diagnostic info from the Windows Start menu*
+<a id="word-_Toc242634267"></a>
+
+*Figure 7 – Collect diagnostic info from the Windows Start menu*
 
 Wait for collection to finish. File Explorer selects the generated archive, C:\\ProgramData\\KAYA Instruments\\KAYA.zip. Send this archive to KAYA support.
 
@@ -15842,7 +15859,9 @@ Right-click the KAYA Service Controller II icon in the system tray and select Co
 
 ![Collect diagnostic info from the KAYA Service Controller II tray menu on Linux](./assets/vision-point-ii-api-data-book/df5fcebbb52cc0b1e1e6.png)
 
-*Figure 12 – Collect diagnostic info from the KAYA Service Controller II tray menu on Linux*
+<a id="word-_Toc242634268"></a>
+
+*Figure 8 – Collect diagnostic info from the KAYA Service Controller II tray menu on Linux*
 
 <strong>KAYA Vision Studio</strong>
 
@@ -15850,7 +15869,9 @@ In KAYA Vision Studio, open the Help menu and select Collect diagnostic info.
 
 ![KAYA Vision Studio Help menu with Collect diagnostic info selected](./assets/vision-point-ii-api-data-book/0546b9470bba835adc74.png)
 
-*Figure 13 – Collect diagnostic info from the KAYA Vision Studio Help menu*
+<a id="word-_Toc242634269"></a>
+
+*Figure 9 – Collect diagnostic info from the KAYA Vision Studio Help menu*
 
 Wait for collection to finish. The collection script creates \~/Documents/KAYA\_Info/KAYA.tar.gz in your home directory and opens the containing folder. Send this archive to KAYA support.
 

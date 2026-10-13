@@ -567,7 +567,7 @@ The bit depth of all saved images (except BMP, which is always 8 bit) depends o
 
 Example: Saving a 10-bit image, pixel values of 1-1024, will save 16-bit values. A black image (left) shows the case of saving the image as TIFF (LSB). The horizontal pattern (right) displays the shifted image saved as TIFF (MSB).
 
-![Figure](./assets/vision-point-ii-app-user-guide-acquisition-mode/5e0581ae979b6f4b7637.png) ![Figure](./assets/vision-point-ii-app-user-guide-acquisition-mode/ed8363c9f0191f5619d0.jpeg)
+![Figure](./assets/vision-point-ii-app-user-guide-acquisition-mode/6776f63ab7bfb451276c.svg)
 
 <a id="word-_Toc207803328"></a>
 

@@ -132,7 +132,7 @@ tar -zxvf VisionPointII\_2025.1.0\_Ubuntu\_20.04\_x64.tar.gz
 
 :::note[Note]
 
-<strong>NOTE</strong><strong>:</strong> <em>Installation</em><em> archive name may vary</em><em>: </em><em> may contain a suffix specifying OS name, version, architecture, etc</em><em>.</em>
+<strong>NOTE</strong><strong>:</strong> <em>Installation</em><em> archive name may </em><em>vary</em><em>:</em> <em> may contain a suffix specifying OS name, version, architecture, etc</em><em>.</em>
 
 :::
 
@@ -170,11 +170,11 @@ The following installation flags are available:
 
 3. Reboot the system.
 4. A link to the applications can be found using search or run directly from the installation directory:
-    1. Vision Point II – “/opt/KAYA\_Instruments/Vision\_Point\_II/bin/VisionPointII.sh”
-    2. Vision Point legacy – “/opt/KAYA\_Instruments/Vision\_Point\_I/bin/VisionPoint\_I.sh”
+    1. Vision Point II – /opt/KAYA\_Instruments/Vision\_Point\_II/bin/VisionPointII.sh
+    2. Vision Point legacy – /opt/KAYA\_Instruments/Vision\_Point\_I/bin/VisionPoint\_I.sh
 5. API usage samples are located here:
-    1. Vision Point II – “/opt/KAYA\_Instruments/Vision\_Point\_II/Examples”
-    2. Vision Point legacy – “/opt/KAYA\_Instruments/Vision\_Point\_I/Examples”
+    1. Vision Point II – /opt/KAYA\_Instruments/Vision\_Point\_II/Examples
+    2. Vision Point legacy – /opt/KAYA\_Instruments/Vision\_Point\_I/Examples
 
 ### Uninstallation Procedure
 
@@ -198,7 +198,7 @@ In Linux operating systems a secure boot process allows only approved drivers to
 
 1. User may check whether a secure boot is activated and enabled for the OS using the following utility command:
 
-mokutil --sb-state
+mokutil \--sb-state
 
 :::note[Note]
 

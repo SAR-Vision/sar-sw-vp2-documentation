@@ -73,7 +73,7 @@ The KAYA Vision Studio app main window with all of its components, as shown in t
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/3c88e460d8972293c838.png)
 
-<a id="word-_Toc232433336"></a>
+<a id="word-_Toc242707481"></a>
 
 *Figure 1 – KAYA Vision Studio app main window*
 
@@ -89,9 +89,9 @@ The KAYA Vision Studio app main window with all of its components, as shown in t
 
 The Hardware Tree panel displays all available devices – PCI Interfaces (Frame Grabbers), connected Cameras and created Streams. Each detected camera is listed under the PCI interface it is connected to. Each Stream is displayed under the Camera from which it was created.
 
-*![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/25b283f45045ceab90f8.png)*
+*![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/f33a128209e7c11b4c41.png)*
 
-<a id="word-_Toc232433337"></a>
+<a id="word-_Toc242707482"></a>
 
 *Figure 2 – Hardware Tree panel*
 
@@ -103,7 +103,7 @@ After opening the device, its available actions will be displayed at the top of 
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/fa3859523bc3c5304dbd.png)
 
-<a id="word-_Toc232433338"></a>
+<a id="word-_Toc242707483"></a>
 
 *Figure 3 – Device menu displaying*
 
@@ -119,7 +119,7 @@ A summary of key information such as frame rate, image format, resolution, etc.,
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/a22a214003902054be41.png)
 
-<a id="word-_Toc232433339"></a>
+<a id="word-_Toc242707484"></a>
 
 *Figure 4 – Acquisition panel*
 
@@ -133,7 +133,7 @@ The Notifications panel displays general, run\-time informational, and error mes
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/df41072d90cb68e381bd.png)
 
-<a id="word-_Toc232433340"></a>
+<a id="word-_Toc242707485"></a>
 
 *Figure 5 – Notification panel*
 
@@ -152,7 +152,7 @@ If it is not needed, the Notifications panel can be hidden/shown via the View ta
 
 ![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/668d75ebce31648789aa.png)
 
-<a id="word-_Toc232433341"></a>
+<a id="word-_Toc242707486"></a>
 
 *Figure 6 – Show/Hide the Notification panel*
 
@@ -188,7 +188,7 @@ An example of Frame Grabber selection is shown in the following figure.
 
 ![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/7d3ffa0473e9953f52c3.png)
 
-<a id="word-_Toc232433342"></a>
+<a id="word-_Toc242707487"></a>
 
 *Figure 7 – Selecting the Frame Grabber*
 
@@ -202,7 +202,7 @@ The target board is selected from the Hardware Tree.
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/86711893f3260bae0f2f.png)
 
-<a id="word-_Toc232433343"></a>
+<a id="word-_Toc242707488"></a>
 
 *Figure 8 – Topology Connection Diagram*
 
@@ -216,17 +216,17 @@ The Auto-scan all devices button is used to detect all connected cameras on all 
 
 *![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/b4790f707d65d1d741bc.png)*
 
-<a id="word-_Toc232433344"></a>
+<a id="word-_Toc242707489"></a>
 
 *Figure 9 – Auto-scan all devices*
 
-To detect the connected cameras on the particular PCI Interface, use Auto scan command.
+To detect the connected cameras on the particular PCI Interface, use Scan command from it’s context menu.
 
 The Rescan command halts all active processes on the frame grabber and restarts the scanning procedure to detect connected cameras.
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/e34863f9ae37adcc5e26.png)
+*![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/b32b149a0c4edf64c074.png)*
 
-<a id="word-_Toc232433345"></a>
+<a id="word-_Toc242707490"></a>
 
 *Figure 10 – Auto scanning for connected cameras*
 
@@ -240,7 +240,7 @@ Open/Close selected camera allows the user to open/close a specific Camera. The 
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/8b9633b8e07deddf4c3b.jpg)
 
-<a id="word-_Toc232433346"></a>
+<a id="word-_Toc242707491"></a>
 
 *Figure 11 – Open the Camera*
 
@@ -248,7 +248,7 @@ The Close command will appear in the context menu after Camera was opened. The O
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/ddbd228091eee05acadb.jpg)
 
-<a id="word-_Toc232433347"></a>
+<a id="word-_Toc242707492"></a>
 
 *Figure 12 – Close the Camera*
 
@@ -260,7 +260,7 @@ Use the Save XML option to export the camera’s XML file. Find this command in 
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/d96b571ef8d9ba91dcc2.jpg)
 
-<a id="word-_Toc232433348"></a>
+<a id="word-_Toc242707493"></a>
 
 *Figure 13 – Save Camera XML to file*
 
@@ -278,7 +278,7 @@ To override the Camera's native XML file, first the Open with XML command, locat
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/5fa01a0162d850c2d06f.jpg)
 
-<a id="word-_Toc232433349"></a>
+<a id="word-_Toc242707494"></a>
 
 *Figure 14 – Open Camera with XML*
 
@@ -293,7 +293,7 @@ To create stream for the particular Camera:
 
 ![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/366cacaafdd0ce85bee1.jpeg)
 
-<a id="word-_Toc232433350"></a>
+<a id="word-_Toc242707495"></a>
 
 *Figure 15 – Creating the stream*
 
@@ -301,7 +301,7 @@ Acquisition panel will be opened.
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/61be3c7861e2780563f7.png)
 
-<a id="word-_Toc232433351"></a>
+<a id="word-_Toc242707496"></a>
 
 *Figure 16 – Stream window*
 
@@ -315,7 +315,7 @@ Multiple Stream is the ability of the camera to transmit several independent str
 
 ![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/b33029b42e7a2e1aca27.png)
 
-<a id="word-_Toc232433352"></a>
+<a id="word-_Toc242707497"></a>
 
 *Figure 17 – Multile Streams*
 
@@ -323,7 +323,7 @@ If the camera supports Multiple Stream, the list of available streams will appea
 
 ![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/7a44df430a1a6cf5c008.png)
 
-<a id="word-_Toc232433353"></a>
+<a id="word-_Toc242707498"></a>
 
 *Figure 18 – Multile Streams creation*
 
@@ -351,7 +351,7 @@ The Image Acquisition toolbar is shown in the figure below and includes the foll
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/47274910d1509ed94500.png)
 
-<a id="word-_Toc232433354"></a>
+<a id="word-_Toc242707499"></a>
 
 *Figure 19 – Image Acquisition toolbar*
 
@@ -363,7 +363,7 @@ The Image Acquisition toolbar is shown in the figure below and includes the foll
 | <strong>Buffer</strong> | Buffers manager | Switch to Buffer manager. |
 | / | Start/Stop acquisition | Control of stream acquisition. |
 | ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/d08a48a875b3d9810752.svg) | Acquire single frame | Acquire single frame |
-| ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/1abde91ce20f6f1906d2.png) | Buffers replay mode | Enable buffers replay mode. |
+| ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/60a831aca9d616e2aa93.svg) | Buffers replay mode | Enable buffers replay mode. |
 | ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/a2b1969df4987960efd1.svg) | Pixel probe | Displays pixel information for the hovered pixel |
 | ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/7f696e6931a87ee0cac1.svg) | Overlay options | Overlay the image with one of several grid patterns. |
 | ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/9e5a8f42034552e2c49b.svg) | Software debayering | Enable or disable software debayering (Bayer to RGB conversion). |
@@ -385,11 +385,11 @@ The Image Acquisition summary is shown below and includes the following componen
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/27583d38f92a1026ab2d.png)
 
-<a id="word-_Toc232433355"></a>
+<a id="word-_Toc242707500"></a>
 
 *Figure 20 – Image acquisition summary*
 
-| Button | Description |
+| Parameter | Description |
 | --- | --- |
 | Pixel format | Shows the set pixel format. |
 | Size | Stream Resolution. |
@@ -413,9 +413,9 @@ The available feature set may vary depending on the protocol, device type, and m
 
 The Feature Browser has a consistent structure and functionality across all device types — PCI Interface, Local Device, Remote Device, and Stream — as shown in the figure below. Use the tabs at the top of the panel to select which device is currently being configured.
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/b9e3b78d73b7efe2c879.png)
+![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/95ba2b43e2d34a1ee108.jpeg)
 
-<a id="word-_Toc232433356"></a>
+<a id="word-_Toc242707501"></a>
 
 *Figure 21 – Feature browser panel*
 
@@ -460,7 +460,7 @@ The Remote Device configuration contains many features, some of which are standa
 
 The features can be configured under the Device (Remote) tab, as described in the Features browser section.
 
-Please refer to your camera manufacturer manual for a description of the camera features.
+Please refer to the camera manufacturer manual for a description of the camera features.
 
 <a id="word-_Toc232433422"></a>
 
@@ -482,7 +482,7 @@ The panel includes controls to add all features to the monitoring group or remov
 
 ![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/7c1a3fa5f4983236fb9b.png)
 
-<a id="word-_Toc232433357"></a>
+<a id="word-_Toc242707502"></a>
 
 *Figure 22 – Monitoring  settings*
 
@@ -496,7 +496,7 @@ By default, the Feature Info and Code Snippets sections are displayed side by si
 
 ![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/f8f6f3677f29ed01602b.png)
 
-<a id="word-_Toc232433358"></a>
+<a id="word-_Toc242707503"></a>
 
 *Figure 23 – Feature info tab*
 
@@ -504,9 +504,9 @@ Feature Info Panel provides a descriptive overview of the selected feature, incl
 
 A read-only Code Snippets tab displays the code snippet associated with the selected feature. The content updates dynamically based on user selection and the chosen programming language.
 
-![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/3d1818f1ca9ab9e554c4.png)
+![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/19b78035f51f3cf43db1.png)
 
-<a id="word-_Toc232433359"></a>
+<a id="word-_Toc242707504"></a>
 
 *Figure 24 – Code Snippets tab*
 
@@ -516,9 +516,9 @@ A read-only Code Snippets tab displays the code snippet associated with the sele
 
 Displays the raw XML representation of the selected feature. The content is read-only and updates automatically based on the current selection.
 
-![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/ae88598a9076e35acedf.png)
+![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/601e2514897ad7dd34d6.png)
 
-<a id="word-_Toc232433360"></a>
+<a id="word-_Toc242707505"></a>
 
 *Figure 25 – Raw XML source viewer*
 
@@ -536,15 +536,15 @@ In the Hex tab user can receive the hexadecimal values of the captured image.
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/6c338502ebf3ec170401.png)
 
-<a id="word-_Toc232433361"></a>
+<a id="word-_Toc242707506"></a>
 
 *Figure 26 – Hex tab*
 
 For quickly navigation to a pixel by X/Y coordinate use Go to pixel function.
 
-![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/846e36642c742a14573c.png)
+![A screenshot of a video game](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/0b96470ee7c7105d32e3.jpeg)
 
-<a id="word-_Toc232433362"></a>
+<a id="word-_Toc242707507"></a>
 
 *Figure 27 – Go to pixel tab*
 
@@ -556,7 +556,7 @@ In the Buffers manager tab user can manage the buffers of the stream – announc
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/e0cbf057893a05d6052d.png)
 
-<a id="word-_Toc232433363"></a>
+<a id="word-_Toc242707508"></a>
 
 *Figure 28 – Buffers manager tab*
 
@@ -569,7 +569,7 @@ Right\-click on the buffer line to access its menu:
 
 ![A screenshot of a computer](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/69e8630e19773ad8f974.png)
 
-<a id="word-_Toc232433364"></a>
+<a id="word-_Toc242707509"></a>
 
 *Figure 29 – Buffers menu*
 
@@ -585,7 +585,7 @@ When Replay Mode is enabled, additional bar will be opened.
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/1e29ef67dec653b86c22.png)
 
-<a id="word-_Toc232433365"></a>
+<a id="word-_Toc242707510"></a>
 
 *Figure 30 – Buffer Replay Mode*
 
@@ -620,7 +620,7 @@ The overlay includes:
 
 ![A screenshot of a computer screen](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/f073d6a6124c9ba7181f.png)
 
-<a id="word-_Toc232433366"></a>
+<a id="word-_Toc242707511"></a>
 
 *Figure 31 – Pixel Probe*
 
@@ -636,7 +636,7 @@ The Grid Lines feature allows to overlay the image with one of several grid patt
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/2906f52a9612f6f9b35d.png)
 
-<a id="word-_Toc232433367"></a>
+<a id="word-_Toc242707512"></a>
 
 *Figure 32 – Grid lines actions*
 
@@ -650,7 +650,7 @@ There are four possible patterns:
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/f943b60e107edd504359.svg)
 
-<a id="word-_Toc232433368"></a>
+<a id="word-_Toc242707513"></a>
 
 *Figure 33 – Grid lines pattern*
 
@@ -664,7 +664,7 @@ To display the stream image in rgb format use the Software debayering button fro
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/527e9f630abed3ef8f3c.png)
 
-<a id="word-_Toc232433369"></a>
+<a id="word-_Toc242707514"></a>
 
 *Figure 34 – Debayering mode off*
 
@@ -676,7 +676,7 @@ The Preview Contrast Adjustment tool allows the user to optimize image visibilit
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/27073808d60de36be486.png)
 
-<a id="word-_Toc232433370"></a>
+<a id="word-_Toc242707515"></a>
 
 *Figure 35 – Color Level Treshold*
 
@@ -696,7 +696,7 @@ To save a captured image, click the ![Figure](./assets/kaya-vision-studio-app-us
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/8afd61447524a339a906.jpg)
 
-<a id="word-_Toc232433371"></a>
+<a id="word-_Toc242707516"></a>
 
 *Figure 36 – Save Image menu*
 
@@ -711,9 +711,9 @@ During the save operation, the user may choose whether the image would be shifte
 
 The bit depth of all saved images (except BMP, which is always 8 bit) depends on stream bit depth.
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/5e0581ae979b6f4b7637.png) ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/ed8363c9f0191f5619d0.jpeg)
+![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/6776f63ab7bfb451276c.svg)
 
-<a id="word-_Toc232433372"></a>
+<a id="word-_Toc242707517"></a>
 
 *Figure 37 – Saving tif 10\-bit image LSB (left) vs. MSB (right)*
 
@@ -751,7 +751,7 @@ Available file output formats:
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/df4a9b5f4a214a89d7e1.png)
 
-<a id="word-_Toc232433373"></a>
+<a id="word-_Toc242707518"></a>
 
 *Figure 38 – Saving Video buffers*
 
@@ -782,11 +782,11 @@ To update the firmware of KAYA Vision PCI Interface, select the required PCI Int
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/05a1ae4baa633e9c6b47.png)
 
-<a id="word-_Toc232433374"></a>
+<a id="word-_Toc242707519"></a>
 
 *Figure 39 – Firmware update option*
 
-Use the required firmware file in the format 'XXX\_XX.bin,' where 'XXX' represents the board name and 'XX' indicates the firmware version.
+Use the required firmware file in the format XXX\_XX.bin, where 'XXX' represents the board name and 'XX' indicates the firmware version.
 
 <a id="word-_Toc232433440"></a>
 
@@ -796,7 +796,7 @@ Use the required firmware file in the format 'XXX\_XX.bin,' where 'XXX' represen
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/3a7b74e04265df0093e1.jpg)
 
-<a id="word-_Toc232433375"></a>
+<a id="word-_Toc242707520"></a>
 
 *Figure 40 – Firmware update selection*
 
@@ -808,7 +808,7 @@ Or click the Find firmware button, as shown in Figure 40, the browser will open 
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/3925cca047dedf0c7f40.jpg)
 
-<a id="word-_Toc232433376"></a>
+<a id="word-_Toc242707521"></a>
 
 *Figure 41 – Firmware update progress*
 
@@ -820,7 +820,7 @@ Or click the Find firmware button, as shown in Figure 40, the browser will open 
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/5a8751a4e67e3a4f0b11.png)
 
-<a id="word-_Toc232433377"></a>
+<a id="word-_Toc242707522"></a>
 
 *Figure 42 – Firmware update completed*
 
@@ -828,7 +828,7 @@ Or click the Find firmware button, as shown in Figure 40, the browser will open 
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/402b8d888179a0ff282f.png)
 
-<a id="word-_Toc232433378"></a>
+<a id="word-_Toc242707523"></a>
 
 *Figure 43 – Firmware update completed*
 
@@ -848,7 +848,7 @@ To find logs files, go to Open logs folder from the Help menu.
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/e5c61e153a443baa992c.png)
 
-<a id="word-_Toc232433379"></a>
+<a id="word-_Toc242707524"></a>
 
 *Figure 44 – Logs folder in Help menu*
 
@@ -862,7 +862,7 @@ To find logs files, go to Open logs folder from the Help menu.
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/e5c61e153a443baa992c.png)
 
-<a id="word-_Toc232433380"></a>
+<a id="word-_Toc242707525"></a>
 
 *Figure 45 – Logs folder in Help menu*
 
@@ -878,7 +878,7 @@ This archive can be sent to support to help diagnose and resolve customer issues
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/7e4ec82c66caa38e5ed6.png)
 
-<a id="word-_Toc232433381"></a>
+<a id="word-_Toc242707526"></a>
 
 *Figure 46 – Collect diagostic info from KAYA Vision Studio Help menu*
 
@@ -888,9 +888,9 @@ It will collect full system information and prepare zip archive<sup>2</sup>.
 
 <strong>Remarks:</strong>
 
-1. By default, installation folder located at C:\\Program Files\\KAYA Instruments.
-2. Diagnostic information archive KAYA.zip location: C:\\ProgramData\\KAYA Instruments.
-3. Installation log files folder can be found: C:\\Program Files\\KAYA Instruments\\Log\\Installer.
+1. By default, installation folder located at C:\\Program Files\\KAYA Instruments
+2. Diagnostic information archive KAYA.zip location: C:\\ProgramData\\KAYA Instruments
+3. Installation log files folder can be found: C:\\Program Files\\KAYA Instruments\\Log\\Installer
 
 <a id="word-_Toc232433446"></a>
 
@@ -900,7 +900,7 @@ If a problem occurs, a warning icon appears next to the device and the status in
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/5c5d909e34f1452fb35f.png)
 
-<a id="word-_Toc232433382"></a>
+<a id="word-_Toc242707527"></a>
 
 *Figure 47 – Warning sign*
 
@@ -914,12 +914,13 @@ If a problem occurs, a warning icon appears next to the device and the status in
 
 This tab allows user to set a general view of KAYA Vision Studio app.
 
+- Backend type – Select the transport backend used after restarting the application. KYVPGenTL does not support grabber firmware updates, direct hardware registers, grabber event notifications or the Serial IPC server. Use KYVPLibTL for these features.
 - Allow creation of multiple workspaces – Enable managing several independent workspaces, each with its own pages and settings. When disabled, only a single workspace is available.
 - Hide workspace tab on single-page view – When enabled, the workspace tab is hidden if only one page exists.
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/021526cc5b98793c065e.png)
+![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/28dc5ab997567c5c117e.png)
 
-<a id="word-_Toc232433383"></a>
+<a id="word-_Toc242707528"></a>
 
 *Figure 48 – Preferences menu / General*
 
@@ -932,11 +933,11 @@ This tab allows user to set the appearance of KAYA Vision Studio app.
 - Application theme – System, Light or Dark.
 - Ul scale – Adjusts the overall size of the user interface, including text, icons, and controls. Increase the scale for better readability or decrease it to fit more content on the screen.
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/14472df3da16c9c4776f.png)
+![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/cd89c9d624a7cbec634c.png)
 
-<a id="word-_Toc232433384"></a>
+<a id="word-_Toc242707529"></a>
 
-*Figure 49 – Preferences menu / Hardware Tree*
+*Figure 49 – Preferences menu / Appearance*
 
 <a id="word-_Toc232433450"></a>
 
@@ -944,12 +945,11 @@ This tab allows user to set the appearance of KAYA Vision Studio app.
 
 This tab allows user to set the Hardware Tree workflow.
 
-- Allow open/close Hardware Tree Panel via double-click.
 - Defines when the Features Browser opens: on PCI Interface initialization, Device Local, or Device Remote. If all options are disabled, it can be opened from the device context menu or via the ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/9f67b9949c51979ffe4a.svg) button in the Stream window (see section Stream Controlling).
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/5f72088d863f4b773f79.png)
+![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/73165cb1edfa8afb06ed.png)
 
-<a id="word-_Toc232433385"></a>
+<a id="word-_Toc242707530"></a>
 
 *Figure 50 – Preferences menu / Hardware Tree*
 
@@ -961,9 +961,9 @@ This tab allows user to set the Hardware Tree workflow.
 - Display time in 24-hour format. If disabled time is displayed in 12\-hour format
 - Show date with time.  If disabled, only time is displayed.
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/eda890ebe9c37905ef9b.png)
+![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/15ff9805b10cd1995d61.png)
 
-<a id="word-_Toc232433386"></a>
+<a id="word-_Toc242707531"></a>
 
 *Figure 51 – Preferences menu / Notification*
 
@@ -974,12 +974,13 @@ This tab allows user to set the Hardware Tree workflow.
 - Auto-send start/stop acquisition commands to the camera – When enabled, the application automatically sends AcquisitionStart and AcquisitionStop commands when the Stream starts or stops. When disabled, these commands must be triggered manually via the camera's Gen&lt;I&gt;Cam features "AcquisitionStart" and "AcquisitionStop".
 - Default announced buffers for stream – specifies the default number of buffers of buffers announced for stream. This parameter must be configured before the stream is started. If  not specified, the default value is used. The number of buffers is limited only by the RAM (max. 65535).
 - Default features panel selection – Choose which features will be selected by default when the features panel is opened in the acquisition panel – PCI Interface, Device Local, Device Remote or Stream.
+- Display pixel ruler – Show pixel rulers along the top and left edges of the video view. The rulers follow zooming and scrolling to show the pixel coordinates of the visible image area. Disable to give the image more space.
 - Pixel probe overlay enabled – When enabled, a floating overlay appears on the video renderer, following the cursor and displaying pixel information for the hovered pixel.
 - Pixel probe details mode – Shows the byte breakdown for each pixel (Minimal, Default or Full).
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/24881876a6c100e96723.png)
+![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/8cadf7a8e37b249f97b6.png)
 
-<a id="word-_Toc232433387"></a>
+<a id="word-_Toc242707532"></a>
 
 *Figure 52 – Preferences menu / Acquisiton*
 
@@ -990,14 +991,14 @@ This tab allows user to set the Hardware Tree workflow.
 - Feature browser creation mode – switch between Folded or Unfolded feature’s view by default.
 - Default visibility filter – defines the user level to get access to the features: Beginner, Expert, Guru.
 - Display physical units – When enabled, the physical units section is shown in the feature browser for any properties that provide unit information. If disabled, this section remains hidden.
-- Display features info – Display the selected feature information and code snippets section when the feature panel is opened. If disabled, it will remain hidden until opened manually from the toolbar.
+- Display features info and code snippets – Display the selected feature information and code snippets section when the feature panel is opened. If disabled, it will remain hidden until opened manually from the toolbar.
 - Allow feature info section split view – if enabled, the feature info and code snippets sections will be displayed side by side when the feature panel is wide enough. Otherwise, the sections will be shown one at time.
 - Default view mode selection – Sets the default view mode when the parameter info section is displayed in single-view mode (feature info or Code snippet).
 - Default code snippet language – Selects the preferred default language for code snippets displayed in the parameter info section (C Native API, C API Adapter and Python API Adapter).
 
 ![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/8f9837d8dcf66b9a0463.png)
 
-<a id="word-_Toc232433388"></a>
+<a id="word-_Toc242707533"></a>
 
 *Figure 53 – Preferences menu / Features*
 
@@ -1011,9 +1012,9 @@ Advanced settings are intended for experienced users only. Incorrect configurati
 - Initial state of 'Automatic PoCXP management' – Starting automatic PoCXP management in 'Forced OFF' state will require 'PoCXP Auto' command from an application.
 - Advanced tools – Provides access to low-level hardware registers, diagnostic controls, and other debugging features for advanced configuration and troubleshooting. Improper use may lead to incorrect system behavior or instability. Intended for advanced users only.
 
-![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/9f6bdaf73b567ee525d8.png)
+![Figure](./assets/kaya-vision-studio-app-user-guide-acquisition-mode/ce8829b293aa10b7c2d9.png)
 
-<a id="word-_Toc232433389"></a>
+<a id="word-_Toc242707534"></a>
 
 *Figure 54 – Preferences menu / Acquisiton*
 

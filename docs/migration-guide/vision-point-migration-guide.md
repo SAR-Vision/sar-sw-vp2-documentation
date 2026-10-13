@@ -17,7 +17,7 @@ The purpose of this document is to list and demonstrate the ways to migrate to t
 
 This API is to be used with KAYA Frame Grabbers hardware provided by KAYA Vision. This is a high\-level API for connecting, configuring and capturing data streaming over 1, 2, 4 or 8 channels. KAYA Frame Grabbers are capable of connecting to various cameras at various speeds and topologies.
 
-<a id="word-_Toc206668998"></a>
+<a id="word-_Toc242618573"></a>
 
 ### Document Structure
 
@@ -30,7 +30,7 @@ This migration guide is divided into few major topics each related to different 
 
 Use the new possibilities with Vision Point II, knowing that existing code is supported. To ensure a smooth transition, a legacy Vision Point API Adapter was developed. The Adapter allows to use the Vision Point II libraries with existing code developed using the legacy Vision Point API.
 
-<a id="word-_Toc206669000"></a>
+<a id="word-_Toc242618575"></a>
 
 ### Old code usage
 
@@ -45,9 +45,11 @@ To enable the customer to use the Vision Point API Adapter, it is necessary to l
 | --- | --- |
 | KYFGLib.lib | KYFGLibA\_vc141.lib |
 
+<a id="word-_Toc242618580"></a>
+
 *Table 2 – Adapter library*
 
-<a id="word-_Toc206669001"></a>
+<a id="word-_Toc242618576"></a>
 
 ### Implemented functions
 
@@ -1439,15 +1441,13 @@ Since 2024.1.2
 </tbody>
 </table>
 
-<a id="word-_Toc196914899"></a>
-
 *Table 3 – Implemented functions*
 
 In case of using not implemented function the user will receive a callback message “Function is not implemented”.
 
 More functions might be added to the Adapter in next Vision Point II releases.
 
-<a id="word-_Toc206669002"></a>
+<a id="word-_Toc242618577"></a>
 
 ### Transition to the new API
 
@@ -1461,7 +1461,7 @@ After including KYFGLibA.h, make sure to add the include directory KAYA\_VISION\
 
 These functions allow the code to retrieve the new API handles used by the Adapter to implement legacy functionality. For instance, if you have a FGHANDLE returned by the legacy API, you can retrieve the new KYVP\_PCI\_INTERFACE\_HANDLE associated with it.
 
-- <strong>KYFG\_Grabber\_Get\_KYVP\_PCI\_INTERFACE\_HANDLE()</strong>
+- KYFG\_Grabber\_Get\_KYVP\_PCI\_INTERFACE\_HANDLE()
 
 Returns underlying KYVP\_PCI\_INTERFACE\_HANDLE for an open FGHANDLE;
 
@@ -1469,7 +1469,7 @@ Returns underlying KYVP\_PCI\_INTERFACE\_HANDLE for an open FGHANDLE;
 
 FGSTATUS \- Status and error report.
 
-- <strong>KYFG\_Grabber\_Get\_KYVP\_COLLECTION\_HANDLE()</strong>
+- KYFG\_Grabber\_Get\_KYVP\_COLLECTION\_HANDLE()
 
 Returns underlying KYVP\_COLLECTION\_HANDLE for an open FGHANDLE
 
@@ -1477,7 +1477,7 @@ Returns underlying KYVP\_COLLECTION\_HANDLE for an open FGHANDLE
 
 FGSTATUS \- Status and error report.
 
-- <strong>KYFG\_Camera\_Get\_KYVP\_DEVICE\_HANDLE()</strong>
+- KYFG\_Camera\_Get\_KYVP\_DEVICE\_HANDLE()
 
 Returns underlying KYVP\_DEVICE\_HANDLE for an open FGHANDLE
 

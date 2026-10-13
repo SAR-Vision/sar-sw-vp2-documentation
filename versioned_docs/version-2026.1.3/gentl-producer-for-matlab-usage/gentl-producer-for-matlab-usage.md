@@ -55,19 +55,19 @@ Install the Vision Point II SDK package which contains the KAYA Instruments KYV
 7. The support package is installed through MATLAB Add-On Explorer.
 4. <strong>Verify the GenTL adaptor</strong><strong>.</strong>
 
-After installation, open the MATLAB Command Window and enter: <strong>imaqhwinfo</strong>
+After installation, open the MATLAB Command Window and enter: imaqhwinfo
 
-The returned list of installed adaptors should include: <strong>gentl</strong>
+The returned list of installed adaptors should include: gentl
 
 The gentl adaptor is the MATLAB interface used to access Gen&lt;I&gt;Cam GenTL cameras.
 
-Check the available GenTL devices with: <strong>imaqhwinfo</strong><strong>("</strong><strong>gentl</strong><strong>")</strong>
+Check the available GenTL devices with: imaqhwinfo("gentl")
 
 If the KAYA GenTL Producer is correctly installed and configured, the connected Gen&lt;I&gt;Cam camera should be listed.
 
 5. <strong>Verify the GenTL Producer</strong><strong>.</strong>
 
-If the camera is not detected, run: <strong>imaqsupport</strong>
+If the camera is not detected, run: imaqsupport
 
 The GenTL section of the output provides information about the configured GenTL environment and detected GenTL Producers. MathWorks recommends using this command for troubleshooting Gen&lt;I&gt;Cam GenTL configuration.
 
@@ -87,7 +87,7 @@ The Image Acquisition Explorer is a graphical interface for connecting to image 
 
 To open the app, select <strong>Apps &gt; Image Processing and Computer Vision &gt; Image Acquisition Explorer</strong>.
 
-Alternatively, enter <strong>imageAcquisitionExplorer</strong> in the MATLAB Command Window.
+Alternatively, enter imageAcquisitionExplorer in the MATLAB Command Window.
 
 ![Figure](./assets/gentl-producer-for-matlab-usage/51b4a8f5e1257999d912.jpg)
 
